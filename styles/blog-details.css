@@ -1,0 +1,129 @@
+.blogdetailsWrapHead{
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.blogdetailsWrapHead p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: #B3B7B7;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.blogdetailsWrapHead h1{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 67px;
+    letter-spacing: 0.56px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    margin-bottom: 20px;
+}
+.blogdetailsHead{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.blogdetailsHead .userBBlog{
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    border: 3px solid #FFF;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.16);
+    margin-right: 15px;
+}
+.blogdetailsHeadUserInfo h5{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #5B6060;
+}
+.blogdetailsHeadUserInfo p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    color: #5B6060;
+}
+.blogdetailsWrap .blogdetailsImg{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.blogDetailsPrimaryP{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #2D3030;
+    font-family: 'TestFoundersGrotesk';
+}
+.blogDetailsLink{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.blogDetailsLink ol{
+    padding: 16px;
+}
+.blogDetailsLink ol li a{
+    color: #2D3030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+    text-decoration: underline!important;
+    font-family: 'TestFoundersGrotesk';
+
+}
+.blogDetailsPoint ol{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    padding: 0 27px;
+}
+.blogDetailsPoint ol h5{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    margin-bottom: 30px;
+}
+.blogDetailsPoint ol li{
+    margin-bottom: 35px;
+}
+.blogDetailsPoint ol li ul{
+    margin-top: 20px;
+}
+.blogDetailsPoint ol li ul li{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #2D3030;
+    font-family: 'TestFoundersGrotesk';
+
+}
+.blogDetailsPrimaryPoint{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #2D3030;
+    font-family: 'TestFoundersGrotesk';
+    margin-left: -25px;
+}
+.blogDetailsWrapMain{
+    max-width: 76rem;
+    margin: 0 auto;
+    padding: 0 16px;
+}

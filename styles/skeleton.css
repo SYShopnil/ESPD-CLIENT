@@ -1,0 +1,68 @@
+.Loader .value{
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #111B33 8%, #050B1D 18%, #111B33 33%);
+    background-size: 1200px 100%;
+    height: 20px;
+    border-radius: 8px;
+}
+.Loader .imgvalue{
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #111B33 8%, #050B1D 18%, #111B33 33%);
+    background-size: 1200px 100%;
+    height: 120px;
+    width: 100%;
+    border-radius: 8px;
+}
+.Loader .minvalue{
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #111B33 8%, #050B1D 18%, #111B33 33%);
+    background-size: 1200px 100%;
+    height: 15px;
+    width: 50%;
+    border-radius: 8px;
+}
+.Loader .smlvalue{
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #111B33 8%, #050B1D 18%, #111B33 33%);
+    background-size: 1200px 100%;
+    height: 10px;
+    width: 30%;
+    border-radius: 8px;
+}
+.Loader .mblvalue{
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #111B33 8%, #050B1D 18%, #111B33 33%);
+    background-size: 1200px 100%;
+    height: 20px;
+    width: 40%;
+    border-radius: 8px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1200px 0;
+    }
+    100% {
+        background-position: 1200px 0;
+    }
+}

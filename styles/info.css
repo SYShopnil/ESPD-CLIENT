@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'TestFoundersGrotesk';
+	src: url('../public/font/Test-Founders-Grotesk-400.otf');
+	/*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+	/*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+	/*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+	/*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+	font-family: 'Test-Founders-Grotesk-Medium-500';
+	src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+	font-family: 'Test-Founders-Grotesk-SmB-600';
+	src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.tabInnerBox{
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.checkIcon {
+	width: 15px;
+	height: 12px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.infoCrossIcon {
+	width: 12px;
+	height: 12px;
+	padding-left: 15px;
+}
+.textTitleCon{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.titleText{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.textSubCon {
+	display: flex;
+	margin-bottom: 15px;
+}
+.subText{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'TestFoundersGrotesk';
+}

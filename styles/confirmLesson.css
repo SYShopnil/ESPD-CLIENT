@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.confirmWrapperSet{
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+.confirmInner{
+    /*margin: 30px 10%;*/
+    width: 800px;
+}
+.confirmCardSite{
+    background-color: #fff;
+}
+.confirmHeadTitle{
+    margin-bottom: 48px;
+}
+.confirmWrapperSet .phoneInputBox input{
+    border: 1px solid transparent;
+}
+.confirmWrapperSet .phoneInputBox input:focus{
+    border: 1px solid #00887A;
+}
+.confirmHeadTitle h1{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.44px;
+    margin-bottom: 30px;
+    color: #1E1E1E;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.confirmHeadTitle p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.048px;
+    color: #1E1E1E;
+    font-family: 'TestFoundersGrotesk';
+}
+.confirmCardInner{
+    display: flex;
+    justify-content: space-between;
+}
+.confirmInnerBox{
+    margin-right: 100px;
+    width: 100%;
+}
+.confirmInnerBox:last-child{
+    margin-right: 0px;
+}
+.users{
+    width: 79px;
+    height: 79px;
+    border-radius: 68px;
+    margin-right: 20px;
+}
+.validityBox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.validityBox input{
+    width: 100%;
+}
+.makePaymentBtnBox{
+    margin-top: 30px;
+}
+.validityBox input:focus{
+    border: 1px solid #00887A;
+}
+.innerBox{
+    width: 100%;
+    margin-right: 10px;
+}
+.innerBox:last-child{
+    margin-right: 0px;
+}
+.innerBox p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+    color: #2D3030;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.innerBox input{
+    border-radius: 8px;
+    border: 1px solid #CCCFCF;
+    padding: 10px;
+}
+.upperTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.upperTitle .Info{
+
+}
+.confrimCheckbox{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.skipText{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #00887A;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.confirmInnerBox{
+    border-radius: 20px;
+    border: 1px solid  #F0F1F1;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+    padding: 32px;
+    height: 100%;
+    margin-right: 64px;
+}
+.confirmInnerBox .validityBox p,
+.confirmInnerBox .passwordBox p,
+.confirmInnerBox .emailBox p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2D3030;
+    margin-bottom: 10px;
+}
+.confirmInnerBox .validityBox input,
+.confirmInnerBox .passwordBox input,
+.confirmInnerBox .emailBox input{
+    padding: 16px;
+}
+.confirmInnerBox .passwordBox input{
+    border-left: 1px solid #CCCFCF;
+}
+.confirmInnerBox .validityBox input:focus,
+.confirmInnerBox .passwordBox input:focus,
+.confirmInnerBox .emailBox input:focus{
+    border: 1px solid #00887A;
+    box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+}
+.checkInnerBoxPrimarry .checkmark{
+    top: -4px;
+}
+.confirmUserInnerBox{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CCCFCF;
+    padding-bottom: 10px;
+}
+.userInnerTitle h3{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.userInnerTitle p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #5B6060;
+    margin-bottom: 10px;
+    font-family: 'TestFoundersGrotesk';
+}
+.priceInnerTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid #CCCFCF;
+}
+.priceInnerTitle p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.totalInnerTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.totalInnerTitle p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #5B6060;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.notetext{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    margin-top: 20px;
+    font-family: 'TestFoundersGrotesk';
+}
+.notetext a{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: #00887A;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}

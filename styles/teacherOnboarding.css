@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.teacherOnboardingWrapper{
+    background: #FAFAFA;
+    min-height: 100vh;
+}
+.tutorOnHeaderWrap{
+    padding: 48px 48px 0px 48px;
+    width: 100%;
+    max-width: 90rem;
+    margin: 0px auto;
+}
+.teacherOnheader{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90rem;
+}
+.teacherInfoBox{
+    display: flex;
+    align-items: center;
+}
+.teacherInfoBox .teacherIcon{
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    margin-left: 20px;
+}
+.teacherInfoBox .teacherName{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.teacherOnMiddle{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*QTC Style*/
+.qtclWrapper{
+    width: 800px;
+}
+
+.pageGoingNumberBox{
+    display: flex;
+    align-items: center;
+}
+.pageGoing{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+.pageGoingNumber{
+    height: 40px;
+    width: 40px;
+    border-radius: 72px;
+    color: #5B6060;
+    background-color: #fff;
+    border: 1px solid #CCCFCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pageGoingDiv{
+    height: 1px;
+    width: 208px;
+    border-bottom: 1px solid #CCCFCF;
+}
+.pageGoing .active{
+    background-color: #FEB61A;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.borderActive{
+    height: 1px;
+    width: 208px;
+    border-bottom: 1px solid #FEB61A;
+}
+.qtclWrapper h1{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0.44px;
+    margin-bottom: 60px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.optionWrap{
+    border-radius: 20px;
+    border: 1px solid #F0F1F1;
+    background-color: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.ProssesText{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    display: flex;
+    text-align: initial;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+
+
+.optionBtnBox{
+    margin-top: 40px;
+    justify-content: flex-start;
+    display: flex;
+}
+.optionBtn{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    border-radius: 8px;
+    border: 1px solid #999F9F;
+    background-color: #FAFAFA;
+    box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+    padding: 8px 30px;
+    margin-right: 16px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.optionBtn:hover{
+    border: 1px solid #00887A;
+    background-color: #E9F6F5;
+    color: #00887A;
+}
+
+.optionBtn:Active{
+    color: #00887A;
+    border: 1px solid #00887A;
+    background-color: #E9F6F5;
+}
+.teacherOnBtnBox{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Experience Style*/
+.experiencOption{
+    margin-top: 40px;
+}
+.experiencOption .checkInnerSearch:last-child{
+    margin-bottom: 0;
+}
+.experiencOption div{
+    margin-bottom: 20px;
+}
+.experiencOption div p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.experiencOption a{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.experiencOption p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #5B6060;
+    margin-left: 5px;
+    font-family: 'TestFoundersGrotesk';
+}
+.expeQusn{
+    display: flex;
+    text-align: initial;
+}
+.ProssesTextExp{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.048px;
+    color: #2D3030;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.ProssesTextExp span{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.048px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.expBtn{
+    border-radius: 8px;
+    border: 1px solid #999F9F;
+    background-color: #FAFAFA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    padding: 8px 30px;
+    margin-right: 10px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.expBtn:hover{
+    border: 1px solid #00887A;
+    background-color: #00887A;
+    color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+}
+.expBtn:active{
+    border: 1px solid #00887A;
+    background-color: #00887A;
+    color: #fff;
+}
+.teacherExpeBtnBox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.previousBtn{
+    border-radius: 8px;
+    border: 1px solid #999F9F;
+    background-color: #FAFAFA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+    padding: 8px 30px;
+    margin-right: 10px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+
+.btnHoverCommon:hover{
+    border: 1px solid #00887A;
+    background-color: #00887A;
+    color: #fff;
+}
+.ArrowLeftGray{
+    margin-right: 10px;
+}
+.previousBtn:active{
+    border: 1px solid #00887A;
+    background-color: #00887A;
+    color: #fff;
+}
+/*Personal detaile style*/
+
+.personalDetailsForm .startP{
+    display: flex;
+    justify-content: unset;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    color: #2D3030;
+    margin-bottom: 15px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.personalDetailsForm{
+    margin-top: 20px;
+}
+.ProssesTextDetails{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: #2D3030;
+    display: flex;
+    margin-bottom: 50px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.firstBoxUrl p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.firstBoxUrl input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCCFCF;
+    border-radius: 8px;
+}
+.urlBox{
+    margin-top: 30px;
+}
+
+.personalDetailsForm input{
+    border-radius: 8px;
+    border: 1px solid #CCCFCF;
+    padding: 20px 12px;
+}
+.personalDetailsForm input:focus{
+    border: 1px solid #00887A;
+    box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+}
+
+.optionBtn.active {
+  background-color: #00887a;
+  color: #fff;
+}
+
+.page-link:hover{
+    color: #fff;
+    background-color: #00887A;
+}
+.page-link:hover .ArrowRightWhite{
+    display: block;
+}
+.page-link:hover .ArrowRightPasi{
+    display: none;
+}
+.TeacherOnSuccessWrapper{
+    min-height: 50vh;
+}
+.TeacherOnSuccessWrapper .octicon_check{
+    margin-bottom: 20px;
+}
+.TeacherOnSuccessWrapper h1{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.44px;
+    margin-bottom: 10px;
+    color: #1E1E1E;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}

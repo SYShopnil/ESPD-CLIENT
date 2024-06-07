@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "TestFoundersGrotesk";
+  src: url("../public/font/Test-Founders-Grotesk-400.otf");
+  /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+  /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  src: url("../public/font/Test-Founders-Grotesk-Medium-500.otf");
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-SmB-600";
+  src: url("../public/font/Test-Founders-Grotesk-SmB-600.otf");
+}
+.subjectWrapper {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.subjectWrapper h2 {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52.8px;
+  letter-spacing: 0.44px;
+  margin-bottom: 46px;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.subjectWrap {
+  text-align: center;
+}
+.subjectWrap .subBox {
+  border-radius: 8px;
+  background-color: #e9f6f5;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 20px 24px;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--bs-body-color);
+}
+.subjectWrap .subBox:hover {
+  border-radius: 8px;
+  background-color: #00887a;
+  color: #fff;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 20px 24px;
+  display: inline-block;
+  cursor: pointer;
+}
+.subjectWrap p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+/*.subjectRow{*/
+/*    margin: 50px 0px;*/
+/*}*/

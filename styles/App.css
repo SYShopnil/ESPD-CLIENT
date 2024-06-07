@@ -1,0 +1,391 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+form {
+  /* margin-top: 100px; */
+  /* width: 30vw; */
+  /* min-width: 500px; */
+  align-self: center;
+  box-shadow: 0px 0px 0px 0.5px rgba(5, 5, 235, 0.1),
+    0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  /* padding: 40px; */
+  /* background: white; */
+}
+
+#payment-message {
+  /* color: rgb(105, 115, 134); */
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+#payment-element {
+  margin-bottom: 24px;
+}
+
+
+/* Buttons and links */
+button {
+  background: #5469d4;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  transition: all 0.2s ease;
+  box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+  width: 100%;
+}
+
+button:hover {
+  filter: contrast(115%);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* spinner/processing state, errors */
+.spinner,
+.spinner:before,
+.spinner:after {
+  border-radius: 50%;
+}
+
+.spinner {
+  color: #ffffff;
+  font-size: 22px;
+  text-indent: -99999px;
+  margin: 0px auto;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.spinner:before,
+.spinner:after {
+  position: absolute;
+  content: '';
+}
+
+.spinner:before {
+  width: 10.4px;
+  height: 20.4px;
+  background: #5469d4;
+  border-radius: 20.4px 0 0 20.4px;
+  top: -0.2px;
+  left: -0.2px;
+  -webkit-transform-origin: 10.4px 10.2px;
+  transform-origin: 10.4px 10.2px;
+  -webkit-animation: loading 2s infinite ease 1.5s;
+  animation: loading 2s infinite ease 1.5s;
+}
+
+.spinner:after {
+  width: 10.4px;
+  height: 10.2px;
+  background: #5469d4;
+  border-radius: 0 10.2px 10.2px 0;
+  top: -0.1px;
+  left: 10.2px;
+  -webkit-transform-origin: 0px 10.2px;
+  transform-origin: 0px 10.2px;
+  -webkit-animation: loading 2s infinite ease;
+  animation: loading 2s infinite ease;
+}
+
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    min-width: initial;
+  }
+
+  .category-card-item .card-image-wrapper {
+    width: 100%;
+    height: 100%;
+
+
+  }
+}
+
+@media only screen and (max-width: 768) {
+
+  .category-card-item .card-image-wrapper {
+    width: 100%;
+    height: 100%;
+
+
+  }
+}
+
+/* fixes for mobile safari */
+@media screen and (max-device-width: 480px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+/*remove extra search icon on search box*/
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+
+/* category section */
+
+.gradient-bg {
+  background-image: radial-gradient(circle, rgba(31, 28, 85, 255), rgba(19, 21, 60, 255), rgb(7, 14, 32) 70%);
+  padding: 90px 20px 20px 20px;
+}
+
+.category-content-wrapper {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.category-content-wrapper:first-child {
+  margin-top: 0px;
+}
+
+.category-content {
+  color: white;
+}
+
+.category-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category-title h5 {
+  font-size: 18px;
+}
+
+.button-text {
+  color: rgb(195, 135, 255);
+}
+
+.category-item-wrapper {
+
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  overflow-x: scroll;
+  margin-top: 10px;
+
+}
+
+.category-item-wrapper::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
+}
+
+/* .category-item-wrapper .styles-module_carousel-arrow__26sRw {
+  display: none;
+} */
+.category-card-item {
+  background: transparent;
+
+
+
+
+}
+
+.category-card-item .card-image-wrapper {
+  width: 135px;
+  height: 135px;
+  border-radius: 8px;
+  overflow: hidden;
+
+
+}
+
+.category-card-item .card-image-wrapper .card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+
+
+}
+
+.card-body-text {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+}
+
+.card-body-text .subText {
+  font-size: 16px;
+  text-transform: capitalize;
+
+}
+
+.card-body-text .subText2 {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #a5a4a4;
+
+}
+
+.card-body-text .subTextPrice {
+  margin-top: 5px;
+  font-size: 12px;
+  text-transform: capitalize;
+
+}
+
+.videoinformationList {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-x: auto;
+  cursor: move;
+
+}
+
+/* width */
+.videoinformationList::-webkit-scrollbar {
+
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+
+}
+
+
+
+
+
+
+
+.video-wrapper {
+
+  padding: 5px;
+  position: relative;
+}
+
+.video-wrapper .video-content {
+  background-color: rgb(41, 41, 41);
+  object-fit: fill;
+  object-position: top center;
+  width: 200px;
+  height: 250px;
+  padding: 1px;
+  border-radius: 10px;
+
+}
+
+.video-button {
+  position: absolute;
+  color: white;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px 15px;
+
+}
+
+.video-button-icon {
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+}
+
+.tableHeader {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.tableHeader p {
+  position: relative;
+
+  /* width: max-content; */
+}
+
+.tableHeader p::after {
+  position: absolute;
+  display: inline;
+  content: "";
+  background-color: white;
+  width: 100%;
+  height: 1px;
+  bottom: -10px;
+  left: 0;
+
+}
+
+/* checkout */
+.checkout-stripe-wrapper {
+  padding: 20px;
+}
+
+.checkout-pay-now-button {
+  background: #C387FF !important;
+}
+
+.p-PaymentDetails-group {
+  color: red !important;
+
+}
+
+.chekcout-wrapper {
+  position: relative;
+}
+
+.cross-button {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+
+
+}
+
+.payment-custom-form {
+  margin-top: 30px;
+}
+
+.purchaseQR {
+  margin: auto;
+}
+
+p {
+  margin-bottom: 0px !important;
+}

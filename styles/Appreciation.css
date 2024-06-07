@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "TestFoundersGrotesk";
+  src: url("../public/font/Test-Founders-Grotesk-400.otf");
+  /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+  /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  src: url("../public/font/Test-Founders-Grotesk-Medium-500.otf");
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-SmB-600";
+  src: url("../public/font/Test-Founders-Grotesk-SmB-600.otf");
+}
+.appreciationWrapper {
+  margin-bottom: 120px;
+}
+.appreciationWrapper .container {
+  /*padding: 0;*/
+}
+.appreciationRow {
+  text-align: center;
+}
+.appreciationWrapper h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  margin-bottom: 10px;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.appreciationWrapper h2 {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0.44px;
+  margin: 0px 21% 50px 21%;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.appreciationWrapper .tabButton {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.appreciationWrapper .tabButton p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px 24px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.appreciationButtonWrap {
+  text-align: center;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  justify-content: center;
+  cursor: pointer;
+  padding: 4px;
+  border: 1px solid #f0f1f1;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+}
+.appreciationButtonWrap .active {
+  color: #fff;
+  background-color: #00887a;
+  transition: 300ms;
+}
+.appreciationButtonWrap .active:hover {
+  background-color: #004c3f;
+}
+.teacherDashboardWrapMain .tabCon,
+.appreciationWrapper .tabCon {
+  display: none;
+}
+.teacherDashboardWrapMain .activeCon,
+.appreciationWrapper .activeCon {
+  display: block;
+}
+.teacherDashboardWrapMain .activeCon::before,
+.appreciationWrapper .activeCon::before {
+  transform: translateX(-50%);
+}
+.appreciationWrapper .tabWrap .innerBox {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.tabWrap .innerBox .textSub {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  font-family: "TestFoundersGrotesk";
+}
+.tabWrap .innerBox .icon {
+  width: 19.465px;
+  height: 16.371px;
+  margin-bottom: 30px;
+}
+.iconLast {
+  width: 19.465px;
+  height: 16.371px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/*.singleTestimonialWrap{*/
+/*    margin-right: 20px!important;*/
+/*}*/
+/*.singleTestimonialWrap:last-child{*/
+/*    margin-right: 0!important;*/
+/*}*/
+
+.tabWrap .innerBox .iconUser {
+  width: 63px;
+  height: 63px;
+  border-radius: 63px;
+  border: 3px solid #fff;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.16);
+  margin-right: 20px;
+  object-fit: cover;
+}
+.tabWrap .innerBox .bottomUserWrap {
+  display: flex;
+  margin-top: 30px;
+}
+.bottomUsertext h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 10px;
+  color: #5b6060;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.bottomUsertext p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.42px;
+  margin-bottom: 5px;
+  font-family: "TestFoundersGrotesk";
+}
+.appreciationWrapper .bottomUsertext p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.42px;
+  color: #5b6060;
+  font-family: "TestFoundersGrotesk";
+  margin-bottom: 5px !important;
+}
+.appreciationWrapper .innerBoxImg {
+  display: flex;
+  width: 100%;
+}
+.lastQuet {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.arrowWrap .iconIcon {
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+}
+.arrowWrap {
+  text-align: center;
+  margin-top: 20px;
+}
+.appreciationWrapper .innerBox {
+  height: 360px;
+  position: relative;
+}

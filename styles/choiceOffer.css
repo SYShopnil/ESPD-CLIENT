@@ -1,0 +1,156 @@
+body{
+    background: #070E20!important;
+}
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+/*Top header*/
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 20px;
+}
+.choiceOfferBody .leftBack{
+    display: flex;
+    align-items: center;
+}
+.choiceOfferBody .leftSignIcon{
+    width: 6px;
+    height: 12px;
+    margin-right: 10px;
+}
+.choiceOfferBody .clubsTitle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.333333px;
+    color: #FFFFFF;
+    font-family: 'TestFoundersGrotesk';
+}
+/*Info*/
+.offerWrap{
+    padding: 10px 20px 20px 20px;
+}
+.offerTitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.offerWrap .checkIcon {
+    width: 15px;
+    height: 12px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.offerWrap .textTitleCon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.offerWrap .titleText{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.offerWrap .textSubCon {
+    display: flex;
+    margin-bottom: 15px;
+}
+.offerWrap .subText{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300!important;
+    letter-spacing: -0.333333px;
+    font-family: 'TestFoundersGrotesk';
+}
+/*OfferList*/
+.offerListWrap{
+    padding: 10px 20px 20px 20px;
+}
+.offerListTitle{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.offerListSub{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-bottom: 10px;
+    font-family: 'TestFoundersGrotesk';
+}
+.listCon{
+    background: #111B33;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.listImgBox{
+    margin-right: 10px;
+    display: flex;
+}
+.listImg{
+    width: 53px;
+    height: 53px;
+    border-radius: 4px;
+}
+.rightSign{
+    width: 6px;
+    height: 12px;
+}
+.listTextBox{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.listTextTitle{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.listPrice{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    font-family: 'TestFoundersGrotesk';
+}
+.offerListWrap .allBtn{
+    padding: 10px;
+}

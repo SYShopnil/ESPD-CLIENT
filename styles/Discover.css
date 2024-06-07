@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "TestFoundersGrotesk";
+  src: url("../public/font/Test-Founders-Grotesk-400.otf");
+  /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+  /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  src: url("../public/font/Test-Founders-Grotesk-Medium-500.otf");
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-SmB-600";
+  src: url("../public/font/Test-Founders-Grotesk-SmB-600.otf");
+}
+.discoverWrapperMain {
+  margin: 0 1rem;
+}
+.discoverWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 487px;
+  padding: 22px 0px 21px 0px;
+  border-radius: 20px;
+  background-image: url(../public/Frame225.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+}
+.stillRequireWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 487px;
+  padding: 22px 0px 21px 0px;
+  border-radius: 20px;
+  background-image: url(../public/Frame225.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+}
+.stillRequireWrapper h2 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px;
+  letter-spacing: 0.72px;
+  margin-bottom: 40px;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.discoverWrapper h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px;
+  letter-spacing: 0.72px;
+  margin-bottom: 40px;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.discovrSub {
+  color: #5b6060;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 48px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.discoverWrapper .signUpBtn {
+  background-color: #00887a;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  padding: 16px 20px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+}
+.stillRequireWrapper .primaryBtnSet {
+  background-color: #00887a;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  padding: 19px 24px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  transition: 300ms;
+}
+.stillRequireWrapper .primaryBtnSet:hover {
+  background-color: #004c3f;
+}
+.stillRequireRow {
+  padding: 0 18%;
+}
+.stillRequireMainBox {
+  margin-left: 16px;
+  margin-right: 16px !important;
+}

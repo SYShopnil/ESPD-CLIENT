@@ -1,0 +1,377 @@
+
+body{
+    background: #070E20!important;
+}
+.detailsViewBody{
+    background: #070E20;
+    overflow: hidden;
+}
+.allBtn{
+    padding: 10px 0px;
+}
+/*Top header*/
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 20px;
+
+}
+.topHeader .leftBack{
+    display: flex;
+    align-items: center;
+}
+.topHeader .leftSignIcon{
+    width: 6px;
+    height: 12px;
+    margin-right: 10px;
+}
+.topHeader .clubsTitle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.333333px;
+    color: #FFFFFF;
+}
+.topHeader .UploadIcon{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.topHeader .PartagerTitle{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.333333px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+/*Banner*/
+.bannerWrap{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    margin: auto;
+}
+.bannerDetailsImg{
+    width: 100%;
+
+
+}
+.backColor{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    background: linear-gradient(0.35deg, #070E20 0.29%, rgba(8, 15, 34, 0) 52.92%);
+}
+.bannerTitleBox{
+
+    position: absolute;
+    bottom: -5px;
+  z-index: 1;
+ width: 100%;
+    left: 20px;
+    
+   
+}
+.bannerTitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.bannerSubTitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+}
+/*Details Btn*/
+.detailsBtnBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.detailsBtnBox .massgIcon{
+    width: 14px;
+    height: 12px;
+    margin-right: 10px;
+}
+.uneBtn{
+    width: 48%;
+}
+.detailsBtnBox  .massgeBtnInner{
+    display: flex;
+    align-items: center;
+}
+.detailsBtnBox .massgText{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+}
+.detailsBtnBox .massgeBtn{
+    background: #111B33;
+    border-radius: 4px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+}
+/*Description*/
+.descriptionBox{
+    margin: 40px 20px 20px 20px;
+}
+.desTitle{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.408px;
+    color: white ;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+.desSub{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.desBtn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: -0.408px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+/*Information*/
+.informationBox{
+    margin: 40px 20px 20px 20px;
+}
+.informationList{
+    display: flex;
+    align-items: center;
+   padding: 5px;
+   width: 100%;
+}
+.informationListIcon .ListIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.informationListIcon{
+    padding-bottom: 15px;
+}
+.informationListText{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+    width: 100%;
+}
+.informationListText .ListText{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+}
+.vedio-frame{
+    width: 100%;
+    height: 100%;
+}
+/*Event*/
+.eventBox{
+    margin: 40px 20px 20px 20px;
+}
+.eventListWrap{
+    overflow-x: auto;
+    display: flex;
+    white-space: nowrap;
+}
+.eventList{
+    padding: 20px;
+    background-color: #111B33;
+    min-width: 180px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.eventList .dateText{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.eventList .timeText{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+.eventList .offresText{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.408px;
+    color: #FF9F0A;
+    margin-bottom: 30px;
+}
+.eventList .moneyText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.Btn{
+    height: 42px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #232D45;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+/*Review*/
+.reviewBox{
+    margin: 40px 20px 20px 20px;
+}
+.reviewTitleBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.whiteStar{
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+}
+.reviewTitle{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.408px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.boldText{
+    color: #FFFFFF;
+}
+.reviewList{
+    padding: 20px;
+    background-color: #111B33;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.reviewStarBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.boldStar{
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+.reviewNameBox{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.reviewText{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+}
+.userName{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    margin-right: 15px;
+}
+.dateText{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.408px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.viewMoreBox{
+    margin: 10px 0px;
+}
+.viewMoreEventListBtn{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: -0.408px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+/* Slider CSS */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-pagination {
+    width: auto !important;
+    padding: 5px 5px;
+    background-color: rgb(0,0,0,0.7);
+    border-radius: 3px;
+    position: absolute;
+    left: auto !important;
+    right: 10px !important;
+  }
+
+  .swiper-pagination-fraction {
+    color: white !important;
+    font-size: 11px;
+  }

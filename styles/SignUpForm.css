@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.formWrapperMain{
+    display: flex;
+    justify-content: center;
+}
+.formWrapperSet{
+    margin-top: 50px;
+}
+
+
+.signUpTitlePop{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    color:  #2D3030;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    margin-bottom: 30px;
+}
+.findTutorPopWrap .formWrapperSet {
+    margin-top: 10px;
+}
+.findTutorPopWrap .formWrap {
+    border-radius: 20px;
+    border: 0;
+    background: #fff;
+    box-shadow: none;
+    padding: 0;
+    width: 457px;
+}
+
+.formWrapperSet input{
+    color: #B3B7B7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    font-family: 'TestFoundersGrotesk';
+}
+.formWrap{
+    border-radius: 20px;
+    border: 1px solid #F0F1F1;
+    background: #fff;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+    padding: 32px;
+    width: 457px;
+}
+.signUpTitle{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.44px;
+    margin-bottom: 45px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    color: #1E1E1E;
+}
+
+.passwordBox p,
+.fromNumberCon p,
+.emailBox p,
+.firstBox p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    color: #2D3030;
+}
+.nameBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.firstBox{
+    width: 48%;
+}
+.firstBox input{
+    width: 100%;
+    padding: 16px 12px;
+    border: 1px solid #CCCFCF;
+    border-radius: 8px;
+    color: #5B6060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    font-family: 'TestFoundersGrotesk';
+}
+.firstBox input::placeholder{
+
+}
+.phoneInputBox{
+    display: flex;
+    align-items: center;
+}
+
+.phoneInputBox{
+    border: 1.5px solid #CCCFCF;
+    border-radius: 8px;
+}
+.passwordBox input,
+.phoneInputBox input{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 16px 12px;
+    color: #5B6060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    font-family: 'TestFoundersGrotesk';
+}
+.phoneInputBox input:focus{
+    border: 1px solid #00887A;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+}
+.phoneInputBox a{
+    text-decoration: none;
+    color: #CCCFCF;
+    padding: 17px 12px;
+    width: 15%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+.fromNumberCon{
+    margin-bottom: 24px;
+}
+.emailBox{
+    margin-bottom: 24px;
+}
+
+.emailBox input{
+    width: 100%;
+    border: 1px solid #CCCFCF;
+    border-radius: 8px;
+    padding: 16px 12px;
+    color: #5B6060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    font-family: 'TestFoundersGrotesk';
+}
+.emailBox input::placeholder{
+    color: #B3B7B7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+}
+.passwordBox{
+    margin-bottom: 24px;
+}
+.passInner{
+
+}
+.passwordBox input{
+    width: 100%;
+    padding: 16px 40px 16px 12px;
+    border: 1px solid #CCCFCF;
+    border-radius: 8px;
+    color: #5B6060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    font-family: 'TestFoundersGrotesk';
+}
+.passInput{
+    position: relative;
+}
+.passEye{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    cursor: pointer;
+}
+.passInner{
+    position: relative;
+    width: 100%;
+}
+.checkInnerBox{
+    display: flex;
+    align-items: center;
+}
+.signUpWrapCheckBoxStyle {
+    margin-bottom: 32px;
+}
+.checkBox{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+.checkInnerBox p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.42px;
+    font-family: 'TestFoundersGrotesk';
+}
+.checkInnerBox p span{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: #00887A;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.signUpBtn{
+    border-radius: 8px;
+    background-color: #00887A;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    transition: 300ms;
+}
+.signUpBtn:hover{
+    background-color: #004C3F;
+}
+.signUpBtnArro{
+    margin-left: 8px;
+}
+.alreadySign{
+    margin-top: 20px;
+    text-align: center;
+}
+.alreadySign p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.alreadySign p a{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: #00887A;
+    margin-left: 10px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.socialSign p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #5B6060;
+    margin: 0px 10px;
+    font-family: 'TestFoundersGrotesk';
+}
+.socialSign .bar{
+    border-bottom: 1px solid #CCCFCF;
+    width: 30px;
+
+}
+.popUpAgreeCheck{
+    margin-bottom: 30px!important;
+}
+.barWith{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialSign{
+    margin-top: 48px;
+}
+.socialInner{
+    text-align: center;
+    margin-top: 10px;
+}
+.socialInner a{
+    margin-right: -20px;
+}
+.socialInner a:last-child{
+    margin-right: 0px;
+}
+
+.formWrapperMain input:focus{
+    border: 1px solid #00887A;
+    box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+}
+input.has-error:focus{
+    border: 1px solid #EE3F3F;
+}
+.phoneInputBox input{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left: 1px solid #CCCFCF;
+}
+.suggestPasP{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 12px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    color: #2D3030;
+}
+.suggestPasBox{
+    margin-bottom: 16px;
+    margin-top: -8px;
+}
+.checkItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 40%;
+}
+
+.suggestPassInner{
+    display: flex;
+    align-items: center;
+}
+.checkItemText{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #B3B7B7;
+    margin-left: 4px;
+    font-family: 'TestFoundersGrotesk';
+}
+.activeNote{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #2FE879;
+    margin-left: 4px;
+    font-family: 'TestFoundersGrotesk';
+}
+.userInnerTitle{
+
+}
+
+
+/*Error Style*/
+.has-error{
+    outline: 1px solid #EE3F3F;
+}
+.has-ErrorMsg{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    position: absolute;
+}
+.has-ErrorMsg .WarningCircle{
+    margin-right: 4px;
+}
+.has-ErrorMsg p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    color: #EE3F3F;
+    margin-bottom: 0!important;
+    font-family: 'TestFoundersGrotesk';
+}
+.has-errorWrap{
+    position: relative;
+}

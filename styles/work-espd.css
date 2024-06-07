@@ -1,0 +1,42 @@
+.workEspdWrapper {
+    background: #FAFAFA;
+}
+
+.workEspdWrap {
+    max-width: 76rem;
+    margin: 0 auto;
+}
+
+.espdWrapperBox .heroImg {
+    /* width: 586px; */
+    /* height: 379px; */
+}
+
+.espdWrapperBox .espdSingleImg img {
+    width: 586px;
+    height: 314px;
+}
+
+.espdWrapperBox .textTitleCon {
+    width: 44%;
+}
+
+.espdBannerBn {}
+
+.espdBannerBn a {
+    width: auto;
+}
+
+.whyEspdRow h3 {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.44px;
+    color: #2D3030;
+    margin-bottom: 48px;
+}
+
+.DiscoverNextLevel {
+    padding: 0 12%;
+}

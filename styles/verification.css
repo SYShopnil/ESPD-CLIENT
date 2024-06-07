@@ -1,0 +1,87 @@
+.verificationWrap{
+	background: radial-gradient(100% 96.56% at -5.92% -29.74%, #212258 0%, #080E21 100%);
+	height: 100vh;
+	padding: 20px;
+}
+
+.verificationBody{
+	text-align: center;
+}
+.verificationIcon{
+	width: 64px;
+	height: 64px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.verificationText{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: -0.408px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+.verificationSubtext{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.verificationWrap .onBtn{
+	border: none;
+}
+
+.codeBox{
+	position: relative;
+}
+.btnBox{
+	width: 100%;
+}
+.codeInput{
+	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	height: 45px;
+	background: #131B2D;
+	border: 0.6px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0px 1px 10px 1px rgba(255, 255, 255, 0.05);
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	padding: 0px 20px 0px 40px;
+	margin-bottom: 20px;
+	caret-color: #C68CFF;
+}
+.codeInput:focus{
+	outline: 0.4px solid #C68CFF;
+}
+.Lock1Icon{
+	position: absolute;
+	width: 15px;
+	height: 17px;
+	left: 14px;
+	top: 13px;
+}
+
+.readText{
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: 400;
+	font-size: 11px;
+	margin-top: 20px;
+}
+.readBtn{
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration-line: underline;
+	letter-spacing: -0.333333px;
+}
+
+

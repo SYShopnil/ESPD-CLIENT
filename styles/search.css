@@ -1,0 +1,564 @@
+@font-face {
+  font-family: "TestFoundersGrotesk";
+  src: url("../public/font/Test-Founders-Grotesk-400.otf");
+  /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+  /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  src: url("../public/font/Test-Founders-Grotesk-Medium-500.otf");
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-SmB-600";
+  src: url("../public/font/Test-Founders-Grotesk-SmB-600.otf");
+}
+.searchWrapperSet {
+  background: #fafafa;
+}
+.backHomeBox {
+  max-width: 1320px;
+}
+
+/*BeforeSearch style*/
+
+.beforeSearchWrapper {
+  margin-top: 60px;
+}
+.BeforeSearchHead {
+  margin-bottom: 50px;
+}
+.searchConRow {
+  margin-top: 100px;
+}
+.BeforeSearchHead h1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  margin-bottom: 32px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.BeforeSearchHead p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.048px;
+  font-family: "TestFoundersGrotesk";
+}
+.BeforeSearchWrap h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  color: #2d3030;
+  margin-bottom: 20px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.searchItemWrap {
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #f0f1f1;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+  padding: 24px;
+}
+.searchItemUser .userImgSearch {
+  width: 219px;
+  height: 257px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.searchItemUser .userImgFavourite {
+  width: 166px;
+  height: 173px;
+  border-radius: 12px;
+}
+.searchItemContentHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.searchItemContentHead p {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+  color: #000;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.searchItemContentHead p span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #5b6060;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.searchItemWrap .searchItemContent {
+  width: 100%;
+}
+.searchItemContent h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #5b6060;
+  margin-bottom: 10px;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.searchItemContent .examBoard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.searchItemContent .examBoard p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-right: 20px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.searchItemContent .examBoard .examBoarIcon {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.reviewBoxSearch {
+  margin-bottom: 10px;
+}
+.searchItemContent .des {
+  margin-bottom: 10px;
+}
+.searchItemContent .des p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.42px;
+  color: #5b6060;
+  font-family: "TestFoundersGrotesk";
+}
+.viewFullPage .viewFullPageBtn {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #00887a;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.searchItemWrap .reviewBoxSearch .starView p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #5b6060;
+  margin-left: 12px;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.searchItemWrap .reviewBoxSearch .starView p span a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #00887a;
+  margin-left: 6px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.searchItemWrap .reviewBoxSearch .starView .review-text-add {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #00887a;
+  margin-left: 6px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  margin-top: 5px;
+}
+.review-text-bottom {
+  display: flex;
+  align-items: center;
+}
+.review-text-bottom .primarryLink {
+  margin-left: 2px;
+}
+.viewFullPage .viewFullPageBtn .ArrowLeftView {
+  margin-left: 10px;
+}
+.userImgSearchHeart {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.searchIemUserInner {
+  position: relative;
+}
+.supperTutorBox {
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(0, 136, 122, 0) 0%, #00887a 100%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.supperTutorBoxInner {
+  display: flex;
+  margin-top: 70px;
+}
+.supperTutorBox p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  color: #fff;
+  margin-left: 10px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.searchItemUser {
+  margin-right: 30px;
+}
+
+/*paginationStyle*/
+.pasinationBox {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}
+.page-link {
+  color: #00887a;
+  border-radius: 8px;
+  background-color: #e9f6f5;
+  margin-right: 10px;
+  border: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.nextImgDouble {
+  display: flex;
+  align-items: center;
+}
+.ArrowRightWhite {
+  display: none;
+  margin-left: 10px;
+}
+.page-link:hover {
+  color: #fff;
+}
+.FavouritItemWrapper .userImgSearchHeart {
+  left: 10px;
+  top: 10px;
+}
+.page-link:hover .ArrowRightWhite {
+  display: block;
+}
+.page-link:hover .ArrowRightPasi {
+  display: none;
+}
+.page-link:active {
+  color: #fff;
+  background-color: #00887a !important;
+}
+.page-link.active {
+  color: #fff;
+  background-color: #00887a !important;
+}
+/*boostrap overwrite*/
+.page-link.active,
+.active > .page-link {
+  background-color: #00887a !important;
+  border-color: #00887a !important;
+}
+/*end boostrap overwrite*/
+.ArrowRightPasi {
+  margin-left: 10px;
+}
+/*Require help Style*/
+.searchRequireHelp {
+  margin-top: 60px;
+}
+.searchRequireHelpInner {
+  border-radius: 20px;
+  border: 1px solid #f0f1f1;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+  padding: 40px;
+  text-align: center;
+}
+.searchRequireHelpInner h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.4px;
+  color: #2d3030;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.searchRequireHelpInner p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: #5b6060;
+  margin-bottom: 40px;
+  font-family: "TestFoundersGrotesk";
+}
+.CommonPhoneMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.findTutorbtnImg {
+  margin-right: 10px;
+}
+
+/*AfterSearch style*/
+
+.BeforeSearchHead p span {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.filterAndShortInner {
+  border-radius: 20px;
+  border: 1px solid #f0f1f1;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+  padding: 32px;
+}
+
+/* Customize the label (the container) */
+.containerLevel {
+  display: block;
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containerLevel input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.signUpWrapperSet .checkmark {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 2px solid #00887a;
+}
+.checkmark {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 2px solid #00887a;
+}
+/* When the checkbox is checked, add a blue background */
+.containerLevel input:checked ~ .checkmark {
+  background-color: #00887a;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.containerLevel:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerLevel input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerLevel .checkmark:after {
+  left: 6px;
+  top: 0px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  /* -webkit-transform: rotate(45deg); */
+  transform: rotate(45deg);
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.filterAndShortInner h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  color: #2d3030;
+  margin-bottom: 48px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.checkContent p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.checkInnerSearch {
+  display: flex;
+  align-items: center;
+}
+.checkContent .checkContentSubText {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  color: #2d3030;
+  font-family: "TestFoundersGrotesk";
+  margin-left: 32px;
+  margin-top: 8px;
+}
+.filterAndShortInner .checkContent {
+  margin-bottom: 24px;
+}
+.bookinglevelConSearch {
+  margin-top: 40px;
+}
+.bookinglevelConSearch h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+  margin-bottom: 0 !important;
+}
+.levelTitleHeadWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.levelTitleHeadWrap .levelTitleHeadBtn {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.21px;
+  border-bottom: 1px solid #00887a;
+  color: #00887a;
+  padding: 0;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  background-color: transparent;
+}
+.allFilterClear {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #00887a;
+  border-radius: 8px;
+  background: #e9f6f5;
+  padding: 12px 16px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  width: 100%;
+}
+
+.filterAndShortInner h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  color: #2d3030;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.checkInnerSearchItem {
+  margin: 20px 0px 20px 30px;
+}
+.checkInnerSearchItem .checkInnerSearchItemBox {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: none;
+  color: #5b6060;
+  display: table;
+  margin-bottom: 4px;
+  border: 1px solid #f0f1f1;
+}
+.checkInnerSearchItem .checkInnerSearchItemBox:hover {
+  background-color: #e9f6f5;
+  color: #2d3030 !important;
+  border: 1px solid #00887a;
+}
+.checkInnerSearchItem .checkInnerSearchItemBox.active {
+  background-color: #00887a;
+  color: #fff !important;
+}
+.dateCheckWrap p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  color: #2d3030;
+  font-family: "TestFoundersGrotesk";
+}
+.filterSearchWrapper {
+  margin-right: 20px;
+}
+
+.exparianceWrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.exparianceWrap .Flask {
+  margin-right: 5px;
+}
+.exparianceWrap p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #5b6060;
+  letter-spacing: 0.24px;
+}

@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.FindTutorPopUpWrapper .youLike h1{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #2D3030;
+    margin-bottom: 20px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.subLevelCon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subLevelCon .subjectBox{
+    width: 48%;
+    margin-bottom: 20px;
+}
+.subLevelCon h2{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2D3030;
+    margin-bottom: 10px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+
+.subLevelCon select{
+    border: 1px solid #CCCFCF;
+    padding: 13px;
+    color: #B3B7B7;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+
+ .subLevelCon select:focus{
+     border: 1px solid #00887A;
+     box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+ }
+ .successSend{
+     text-align: center;
+ }
+.successSend{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    color: #2D3030;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+ }
+.findPopH4{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    color: #2D3030;
+    margin-bottom: 30px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    width: 85%;
+}
+
+.levelSelectInput .levelSelectIn{
+    padding: 16px 50px 16px 18px;
+    border: 1px solid #CCCFCF;
+    border-radius: 8px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    /*background-color: transparent;*/
+    color: #5B6060;
+    outline:0px;
+    font-family: 'TestFoundersGrotesk';
+    position: relative;
+    width: 100%;
+}
+.levelSelectInput .levelSelectIn:focus{
+    border: 1px solid #00887A;
+    box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+}
+.levelSelectInput .levelSelectIn::placeholder{
+    color: #B3B7B7;
+}
+.levelSelectInput .CaretUpDown{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: auto;
+    height: auto;
+    opacity: 25%;
+    cursor: pointer;
+}
+.levelSelectInput .CaretUpDown:hover{
+    opacity: 40%;
+}
+.levelSelectCon{
+    position: relative;
+
+}
+.levelSelectInput{
+    position: relative;
+}
+.levelSelectOptionBoxSec h5{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2D3030;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    padding: 15px 20px;
+}
+.levelSelectOptionBoxSec{
+    position: absolute;
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+.levelSelectOptionBoxSec .subjectOptionItem{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.writeText h2{
+    margin-bottom: 12px;
+}
+.writeText textarea::placeholder{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.42px;
+    color: #B3B7B7;
+}
+.FindTutorPopUpWrapper .signUpBtn{
+    margin-top: 20px;
+}

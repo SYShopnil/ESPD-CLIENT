@@ -1,0 +1,523 @@
+@font-face {
+  font-family: "TestFoundersGrotesk";
+  src: url("../public/font/Test-Founders-Grotesk-400.otf");
+  /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+  /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  src: url("../public/font/Test-Founders-Grotesk-Medium-500.otf");
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-SmB-600";
+  src: url("../public/font/Test-Founders-Grotesk-SmB-600.otf");
+}
+.topMenuWarpMain {
+  display: flex;
+  justify-content: center;
+}
+.topMenuWarp {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 48px 0px 48px;
+  align-items: center;
+  width: 100%;
+  max-width: 90rem;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.brand a {
+  display: flex;
+  align-items: center;
+}
+.brandIcon {
+  /*width: 119px;*/
+  /*height: 49px;*/
+  /*margin-right: 10px;*/
+}
+/*menu style*/
+.topMenuWarp .menuWarp {
+  display: flex;
+  /*align-items: baseline;*/
+}
+.menuInner ul {
+  margin-bottom: 0;
+  display: flex;
+}
+
+.menuInner ul li {
+  list-style: none;
+  display: inline-block;
+}
+.menuInner ul li .nav-link {
+  text-decoration: none;
+  color: #000000;
+  padding: 14px 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.menuInner ul li .CaretDown {
+  /*width: 16px;*/
+  /*height: 16px;*/
+}
+.menuInner ul li .User {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.menuInner ul li .menuText {
+  display: flex;
+  align-items: center;
+}
+.phoneMenu {
+  background-color: #00887a;
+  border-radius: 10px;
+  transition: 300ms;
+}
+.phoneMenu:hover {
+  background-color: #004c3f;
+}
+.phoneMenu p {
+  color: #fff;
+}
+.loginMenu {
+  margin-left: 40px;
+  margin-right: 24px;
+}
+
+/*pop Up*/
+
+.modal-content,
+.modal-header,
+.modal-footer {
+  border: none;
+}
+.modal-footer {
+  padding-bottom: 0;
+}
+.modal-header {
+  padding-bottom: 0;
+}
+.modal.show .modal-dialog {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.findTutorPopWrap {
+  width: 548px !important;
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px 10px 10px 10px;
+}
+.dateAndTimePopWrap {
+  width: 930px !important;
+  border-radius: 20px;
+  background: #fff;
+  padding: 15px 10px 10px 10px;
+}
+/*.findTutorMainWrap .modal-content{*/
+/*    width: 548px!important;*/
+/*}*/
+/*.userBookoptionWrapper .modal-content{*/
+/*    width: 930px!important;*/
+/*}*/
+
+.modal-body {
+  padding-top: 0;
+}
+.modal-content {
+  padding: 10px;
+  background-color: transparent;
+  align-items: center;
+}
+.modelTitle {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.MobileIconSet {
+  display: none;
+}
+.mobilemenuWtap {
+  display: none;
+}
+
+/*user style*/
+
+.userWrap {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+}
+.userWrap h2 {
+  color: #000000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.userWrap .userIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 72px;
+  background-color: #fff;
+  margin-left: 20px;
+}
+.headerUserWrapper {
+  position: relative;
+}
+
+.userMenuWrap {
+  border-radius: 8px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  padding-top: 10px;
+}
+.userMenuBox {
+  display: none;
+}
+.userMenuWrap .userMenuBtn {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.userMenuWrap .userMenuBtn:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.userMenuWrap .userMenuBtn:hover {
+  background-color: #e9f6f5;
+}
+.userMenuWrap .userMenuBtn {
+  margin-left: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #5b6060;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  cursor: pointer;
+}
+.userMenuWrap .userMenuBtn p {
+  margin-left: 8px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #5b6060;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  cursor: pointer;
+}
+.userIconBox:hover .userMenuBox {
+  display: block;
+}
+
+/*Header DropDown Style*/
+.navDropDown {
+  position: relative;
+}
+.navDropDown:hover .headerMenuWrap {
+  display: block;
+  transition: 0.5s;
+}
+.navDropDown:hover .CaretUp {
+  display: block;
+  transition: 0.5s;
+}
+.navDropDown:hover .CaretDown {
+  display: none;
+  transition: 0.5s;
+}
+.headerMenuWrap {
+  position: absolute;
+  z-index: 1;
+  padding-top: 15px;
+  left: -32%;
+  display: none;
+}
+.menuDropDownInner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 45px;
+  width: 143%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+}
+.menuDropDownInner a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #5b6060;
+  padding: 12px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+.menuDropDownInner a:hover {
+  border-radius: 8px;
+  background-color: #e9f6f5;
+  color: #000000;
+}
+.menuDropDownInner::before {
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: 47%;
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  -webkit-transform: rotate(45deg) skew(1deg, 1deg);
+}
+.menuDrownDownArrowBox {
+  position: relative;
+  margin-left: 4px;
+}
+.menuDrownDownArrowBox .CaretUp {
+  display: none;
+}
+
+/*Mobile Style*/
+@media only screen and (max-width: 768px) {
+  .mobileWrapMain {
+    display: block !important;
+  }
+  .topMenuWarp {
+    padding: 16px !important;
+    /*max-width: 24.375rem;*/
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #f0f1f1;
+  }
+  .topMenuWarp .menuWarp {
+    align-items: center;
+  }
+  .brandIcon {
+    width: 82px;
+    height: 34px;
+  }
+  .MobileLoginMenuWrap {
+    margin-right: 20px;
+    display: block !important;
+  }
+  .MobileLoginMenu {
+    display: flex;
+    align-items: center;
+  }
+  .MobileLoginMenu p {
+    margin-left: 4px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: "Test-Founders-Grotesk-Medium-500";
+  }
+  .menuInner {
+    display: none;
+  }
+
+  .MobileIconSet {
+    display: block;
+  }
+
+  .mobilemenuWtap {
+    display: block;
+  }
+  .mobilemenuWtap {
+    display: none;
+    transition: 0.5s all;
+  }
+  .mobilemenuWtap.is-open {
+    display: block;
+    overflow: hidden;
+  }
+  .mobileInnermain {
+    display: flex;
+    height: 100%;
+  }
+  .MobileIconBox .mobileIcon {
+    width: 30px;
+    height: 30px;
+  }
+  .mobilemenuWtap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  .mobileMenuinner {
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    overflow-y: auto;
+  }
+  .blankSite {
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .mobileWrapMain {
+    display: flex !important;
+    align-items: center;
+  }
+  .menuHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  .mobilemenuitem {
+    margin-bottom: 30%;
+  }
+  .mobileBrandIcon {
+    width: 82px;
+    height: 34px;
+  }
+
+  .mbileCloseIcon {
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+  }
+  .mobiletitorBox {
+    width: 100%;
+  }
+  .mobiletitorBox .phoneMenu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    justify-content: center;
+  }
+  .mobiletitorBox .phoneMenu .User {
+    margin-right: 8px;
+  }
+  .MobileCloseIconBox {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  .mobilemenuitem ul li {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .mobilemenuitem ul li a {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: "Test-Founders-Grotesk-Medium-500";
+  }
+
+  .mobileMenuflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobileInnerLogIn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+  }
+
+  .mobiletitorBox a,
+  .mobileLogInBox a {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobiletitorBox a p,
+  .mobileLogInBox a p {
+    margin-left: 10px;
+  }
+
+  .mobiletitorBox a {
+    padding: 15px;
+  }
+  .headerUserWrapper .teacherInfoUserBox,
+  .teacherHeader .teacherInfo .teacherInfoUserBox {
+    width: 32px !important;
+    height: 32px !important;
+    margin-left: 10px !important;
+    margin-right: 20px;
+  }
+  .userWrap h1 {
+    font-size: 18px;
+  }
+  .teacherIcon {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .mobileMenuSubDropdownBox {
+    padding-bottom: 20px;
+    background-color: #ffffff;
+  }
+  .mobileMenuSubDropdownBox ul {
+    padding: 0;
+  }
+  .mobileMenuSubDropdownBox ul li a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #5b6060;
+    padding: 12px;
+    font-family: "Test-Founders-Grotesk-Medium-500";
+    background-color: #e9f6f5;
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  .mobileMenuSubDropdownBox.is-drop {
+    display: block;
+  }
+  .mobilemenuitem .CaretDown,
+  .mobilemenuitem .CaretUp {
+    display: none;
+    position: absolute;
+    right: 0;
+  }
+  .mobilemenuitem .CaretUp {
+    right: -2px;
+  }
+  .mobilemenuitem .CaretDown.is-drop,
+  .mobilemenuitem .CaretUp.is-drop {
+    display: block;
+  }
+  .mobilemenuitem .mobileMenuflex {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .topMenuWarp {
+    max-width: 24.375rem;
+  }
+}

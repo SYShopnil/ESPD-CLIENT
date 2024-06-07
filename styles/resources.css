@@ -1,0 +1,109 @@
+.resourcesWrap{
+    max-width: 76rem;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.resourcesWrapHead{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.resourcesWrapHead h1{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 67px;
+    letter-spacing: 0.56px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    margin-bottom: 20px;
+}
+.featuredBlogsWrap{
+    margin-bottom: 120px;
+}
+.resourcesWrapHead p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.048px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+
+}
+.featuredBlogsHead{
+    border-bottom: 1px solid #999F9F;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.featuredBlogsClickWrapper{
+    cursor: pointer;
+}
+.featuredBlogsHead h1{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    margin-bottom: 32px;
+}
+.featuredBlogsItem{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.featuredBlogsItemInner .featureImg{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    height: auto;
+    width: 100%;
+}
+.featuredBlogsItemDetails{
+    margin-top: 30px;
+}
+.featuredBlogsItemDetails .featuredTag{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #B3B7B7;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    margin-bottom: 20px;
+}
+.featuredBlogsItemDetails h2{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    color: #2D3030;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    margin-bottom: 20px;
+}
+.featuredBlogsItemDetails h3{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #2D3030;
+    font-family: 'TestFoundersGrotesk';
+    margin-bottom: 20px;
+}
+.featuredBlogsItemDetails button img{
+    margin-left: 8px;
+}
+.featuredBlogsItemDetails button{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #00887A;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.featuredBlogsContainer {
+    /*max-width: 72rem;*/
+    margin: 0 auto;
+}

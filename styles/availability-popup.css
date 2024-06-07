@@ -1,0 +1,659 @@
+:root {
+    --material-themewhite: rgba(255, 255, 255, 1);
+    --material-themeblack: rgba(0, 0, 0, 1);
+    --material-themesyslightprimary: rgba(103, 80, 164, 1);
+    --material-themesyslighton-primary: rgba(255, 255, 255, 1);
+    --material-themesyslightprimary-container: rgba(234, 221, 255, 1);
+    --material-themesyslighton-primary-container: rgba(33, 0, 93, 1);
+    --material-themesyslightprimary-fixed: rgba(234, 221, 255, 1);
+    --material-themesyslighton-primary-fixed: rgba(33, 0, 93, 1);
+    --material-themesyslightprimary-fixed-dim: rgba(208, 188, 255, 1);
+    --material-themesyslighton-primary-fixed-variant: rgba(79, 55, 139, 1);
+    --material-themesyslightsecondary: rgba(98, 91, 113, 1);
+    --material-themesyslighton-secondary: rgba(255, 255, 255, 1);
+    --material-themesyslightsecondary-container: rgba(232, 222, 248, 1);
+    --material-themesyslighton-secondary-container: rgba(29, 25, 43, 1);
+    --material-themesyslightsecondary-fixed: rgba(232, 222, 248, 1);
+    --material-themesyslighton-secondary-fixed: rgba(29, 25, 43, 1);
+    --material-themesyslightsecondary-fixed-dim: rgba(204, 194, 220, 1);
+    --material-themesyslighton-secondary-fixed-variant: rgba(74, 68, 88, 1);
+    --material-themesyslighttertiary: rgba(125, 82, 96, 1);
+    --material-themesyslighton-tertiary: rgba(255, 255, 255, 1);
+    --material-themesyslighttertiary-container: rgba(255, 216, 228, 1);
+    --material-themesyslighton-tertiary-container: rgba(49, 17, 29, 1);
+    --material-themesyslighttertiary-fixed: rgba(255, 216, 228, 1);
+    --material-themesyslighton-tertiary-fixed: rgba(49, 17, 29, 1);
+    --material-themesyslighttertiary-fixed-dim: rgba(239, 184, 200, 1);
+    --material-themesyslighton-tertiary-fixed-variant: rgba(99, 59, 72, 1);
+    --material-themesyslighterror: rgba(179, 38, 30, 1);
+    --material-themesyslighton-error: rgba(255, 255, 255, 1);
+    --material-themesyslighterror-container: rgba(249, 222, 220, 1);
+    --material-themesyslighton-error-container: rgba(65, 14, 11, 1);
+    --material-themesyslightoutline: rgba(121, 116, 126, 1);
+    --material-themesyslightbackground: rgba(254, 247, 255, 1);
+    --material-themesyslighton-background: rgba(29, 27, 32, 1);
+    --material-themesyslightsurface: rgba(254, 247, 255, 1);
+    --material-themesyslighton-surface: rgba(29, 27, 32, 1);
+    --material-themesyslightsurface-variant: rgba(231, 224, 236, 1);
+    --material-themesyslighton-surface-variant: rgba(73, 69, 79, 1);
+    --material-themesyslightinverse-surface: rgba(50, 47, 53, 1);
+    --material-themesyslightinverse-on-surface: rgba(245, 239, 247, 1);
+    --material-themesyslightinverse-primary: rgba(208, 188, 255, 1);
+    --material-themesyslightshadow: rgba(0, 0, 0, 1);
+    --material-themesyslightsurface-tint: rgba(103, 80, 164, 1);
+    --material-themesyslightoutline-variant: rgba(202, 196, 208, 1);
+    --material-themesyslightscrim: rgba(0, 0, 0, 1);
+    --material-themesyslightsurface-container-highest: rgba(230, 224, 233, 1);
+    --material-themesyslightsurface-container-high: rgba(236, 230, 240, 1);
+    --material-themesyslightsurface-container: rgba(243, 237, 247, 1);
+    --material-themesyslightsurface-container-low: rgba(247, 242, 250, 1);
+    --material-themesyslightsurface-container-lowest: rgba(255, 255, 255, 1);
+    --material-themesyslightsurface-bright: rgba(254, 247, 255, 1);
+    --material-themesyslightsurface-dim: rgba(222, 216, 225, 1);
+    --material-themesysdarkprimary: rgba(208, 188, 255, 1);
+    --material-themesysdarkon-primary: rgba(56, 30, 114, 1);
+    --material-themesysdarkprimary-container: rgba(79, 55, 139, 1);
+    --material-themesysdarkon-primary-container: rgba(234, 221, 255, 1);
+    --material-themesysdarkprimary-fixed: rgba(234, 221, 255, 1);
+    --material-themesysdarkon-primary-fixed: rgba(33, 0, 93, 1);
+    --material-themesysdarkprimary-fixed-dim: rgba(208, 188, 255, 1);
+    --material-themesysdarkon-primary-fixed-variant: rgba(79, 55, 139, 1);
+    --material-themesysdarksecondary: rgba(204, 194, 220, 1);
+    --material-themesysdarkon-secondary: rgba(51, 45, 65, 1);
+    --material-themesysdarksecondary-container: rgba(74, 68, 88, 1);
+    --material-themesysdarkon-secondary-container: rgba(232, 222, 248, 1);
+    --material-themesysdarksecondary-fixed: rgba(232, 222, 248, 1);
+    --material-themesysdarkon-secondary-fixed: rgba(29, 25, 43, 1);
+    --material-themesysdarksecondary-fixed-dim: rgba(204, 194, 220, 1);
+    --material-themesysdarkon-secondary-fixed-variant: rgba(74, 68, 88, 1);
+    --material-themesysdarktertiary: rgba(239, 184, 200, 1);
+    --material-themesysdarkon-tertiary: rgba(73, 37, 50, 1);
+    --material-themesysdarktertiary-container: rgba(99, 59, 72, 1);
+    --material-themesysdarkon-tertiary-container: rgba(255, 216, 228, 1);
+    --material-themesysdarktertiary-fixed: rgba(255, 216, 228, 1);
+    --material-themesysdarkon-tertiary-fixed: rgba(49, 17, 29, 1);
+    --material-themesysdarktertiary-fixed-dim: rgba(239, 184, 200, 1);
+    --material-themesysdarkon-tertiary-fixed-variant: rgba(99, 59, 72, 1);
+    --material-themesysdarkerror: rgba(242, 184, 181, 1);
+    --material-themesysdarkon-error: rgba(96, 20, 16, 1);
+    --material-themesysdarkerror-container: rgba(140, 29, 24, 1);
+    --material-themesysdarkon-error-container: rgba(249, 222, 220, 1);
+    --material-themesysdarkoutline: rgba(147, 143, 153, 1);
+    --material-themesysdarkbackground: rgba(20, 18, 24, 1);
+    --material-themesysdarkon-background: rgba(230, 224, 233, 1);
+    --material-themesysdarksurface: rgba(20, 18, 24, 1);
+    --material-themesysdarkon-surface: rgba(230, 224, 233, 1);
+    --material-themesysdarksurface-variant: rgba(73, 69, 79, 1);
+    --material-themesysdarkon-surface-variant: rgba(202, 196, 208, 1);
+    --material-themesysdarkinverse-surface: rgba(230, 224, 233, 1);
+    --material-themesysdarkinverse-on-surface: rgba(50, 47, 53, 1);
+    --material-themesysdarkinverse-primary: rgba(103, 80, 164, 1);
+    --material-themesysdarkshadow: rgba(0, 0, 0, 1);
+    --material-themesysdarksurface-tint: rgba(208, 188, 255, 1);
+    --material-themesysdarkoutline-variant: rgba(73, 69, 79, 1);
+    --material-themesysdarkscrim: rgba(0, 0, 0, 1);
+    --material-themesysdarksurface-container-highest: rgba(54, 52, 59, 1);
+    --material-themesysdarksurface-container-high: rgba(43, 41, 48, 1);
+    --material-themesysdarksurface-container: rgba(33, 31, 38, 1);
+    --material-themesysdarksurface-container-low: rgba(29, 27, 32, 1);
+    --material-themesysdarksurface-container-lowest: rgba(15, 13, 19, 1);
+    --material-themesysdarksurface-bright: rgba(59, 56, 62, 1);
+    --material-themesysdarksurface-dim: rgba(20, 18, 24, 1);
+    --material-themerefprimaryprimary0: rgba(0, 0, 0, 1);
+    --material-themerefprimaryprimary10: rgba(33, 0, 93, 1);
+    --material-themerefprimaryprimary20: rgba(56, 30, 114, 1);
+    --material-themerefprimaryprimary30: rgba(79, 55, 139, 1);
+    --material-themerefprimaryprimary40: rgba(103, 80, 164, 1);
+    --material-themerefprimaryprimary50: rgba(127, 103, 190, 1);
+    --material-themerefprimaryprimary60: rgba(154, 130, 219, 1);
+    --material-themerefprimaryprimary70: rgba(182, 157, 248, 1);
+    --material-themerefprimaryprimary80: rgba(208, 188, 255, 1);
+    --material-themerefprimaryprimary90: rgba(234, 221, 255, 1);
+    --material-themerefprimaryprimary95: rgba(246, 237, 255, 1);
+    --material-themerefprimaryprimary99: rgba(255, 251, 254, 1);
+    --material-themerefprimaryprimary100: rgba(255, 255, 255, 1);
+    --material-themerefsecondarysecondary0: rgba(0, 0, 0, 1);
+    --material-themerefsecondarysecondary10: rgba(29, 25, 43, 1);
+    --material-themerefsecondarysecondary20: rgba(51, 45, 65, 1);
+    --material-themerefsecondarysecondary30: rgba(74, 68, 88, 1);
+    --material-themerefsecondarysecondary40: rgba(98, 91, 113, 1);
+    --material-themerefsecondarysecondary50: rgba(122, 114, 137, 1);
+    --material-themerefsecondarysecondary60: rgba(149, 141, 165, 1);
+    --material-themerefsecondarysecondary70: rgba(176, 167, 192, 1);
+    --material-themerefsecondarysecondary80: rgba(204, 194, 220, 1);
+    --material-themerefsecondarysecondary90: rgba(232, 222, 248, 1);
+    --material-themerefsecondarysecondary95: rgba(246, 237, 255, 1);
+    --material-themerefsecondarysecondary99: rgba(255, 251, 254, 1);
+    --material-themerefsecondarysecondary100: rgba(255, 255, 255, 1);
+    --material-themereftertiarytertiary0: rgba(0, 0, 0, 1);
+    --material-themereftertiarytertiary10: rgba(49, 17, 29, 1);
+    --material-themereftertiarytertiary20: rgba(73, 37, 50, 1);
+    --material-themereftertiarytertiary30: rgba(99, 59, 72, 1);
+    --material-themereftertiarytertiary40: rgba(125, 82, 96, 1);
+    --material-themereftertiarytertiary50: rgba(152, 105, 119, 1);
+    --material-themereftertiarytertiary60: rgba(181, 131, 146, 1);
+    --material-themereftertiarytertiary70: rgba(210, 157, 172, 1);
+    --material-themereftertiarytertiary80: rgba(239, 184, 200, 1);
+    --material-themereftertiarytertiary90: rgba(255, 216, 228, 1);
+    --material-themereftertiarytertiary95: rgba(255, 236, 241, 1);
+    --material-themereftertiarytertiary99: rgba(255, 251, 250, 1);
+    --material-themereftertiarytertiary100: rgba(255, 255, 255, 1);
+    --material-themereferrorerror0: rgba(0, 0, 0, 1);
+    --material-themereferrorerror10: rgba(65, 14, 11, 1);
+    --material-themereferrorerror20: rgba(96, 20, 16, 1);
+    --material-themereferrorerror30: rgba(140, 29, 24, 1);
+    --material-themereferrorerror40: rgba(179, 38, 30, 1);
+    --material-themereferrorerror50: rgba(220, 54, 46, 1);
+    --material-themereferrorerror60: rgba(228, 105, 98, 1);
+    --material-themereferrorerror70: rgba(236, 146, 142, 1);
+    --material-themereferrorerror80: rgba(242, 184, 181, 1);
+    --material-themereferrorerror90: rgba(249, 222, 220, 1);
+    --material-themereferrorerror95: rgba(252, 238, 238, 1);
+    --material-themereferrorerror99: rgba(255, 251, 249, 1);
+    --material-themereferrorerror100: rgba(255, 255, 255, 1);
+    --material-themerefneutralneutral0: rgba(0, 0, 0, 1);
+    --material-themerefneutralneutral4: rgba(15, 13, 19, 1);
+    --material-themerefneutralneutral6: rgba(20, 18, 24, 1);
+    --material-themerefneutralneutral10: rgba(29, 27, 32, 1);
+    --material-themerefneutralneutral12: rgba(33, 31, 38, 1);
+    --material-themerefneutralneutral17: rgba(43, 41, 48, 1);
+    --material-themerefneutralneutral20: rgba(50, 47, 53, 1);
+    --material-themerefneutralneutral22: rgba(54, 52, 59, 1);
+    --material-themerefneutralneutral24: rgba(59, 56, 62, 1);
+    --material-themerefneutralneutral30: rgba(72, 70, 76, 1);
+    --material-themerefneutralneutral40: rgba(96, 93, 100, 1);
+    --material-themerefneutralneutral50: rgba(121, 118, 125, 1);
+    --material-themerefneutralneutral60: rgba(147, 143, 150, 1);
+    --material-themerefneutralneutral70: rgba(174, 169, 177, 1);
+    --material-themerefneutralneutral80: rgba(202, 197, 205, 1);
+    --material-themerefneutralneutral87: rgba(222, 216, 225, 1);
+    --material-themerefneutralneutral90: rgba(230, 224, 233, 1);
+    --material-themerefneutralneutral92: rgba(236, 230, 240, 1);
+    --material-themerefneutralneutral94: rgba(243, 237, 247, 1);
+    --material-themerefneutralneutral95: rgba(245, 239, 247, 1);
+    --material-themerefneutralneutral96: rgba(247, 242, 250, 1);
+    --material-themerefneutralneutral99: rgba(255, 251, 255, 1);
+    --material-themerefneutralneutral100: rgba(255, 255, 255, 1);
+    --material-themerefneutral-variantneutral-variant0: rgba(0, 0, 0, 1);
+    --material-themerefneutral-variantneutral-variant10: rgba(29, 26, 34, 1);
+    --material-themerefneutral-variantneutral-variant20: rgba(50, 47, 55, 1);
+    --material-themerefneutral-variantneutral-variant30: rgba(73, 69, 79, 1);
+    --material-themerefneutral-variantneutral-variant40: rgba(96, 93, 102, 1);
+    --material-themerefneutral-variantneutral-variant50: rgba(121, 116, 126, 1);
+    --material-themerefneutral-variantneutral-variant60: rgba(147, 143, 153, 1);
+    --material-themerefneutral-variantneutral-variant70: rgba(174, 169, 180, 1);
+    --material-themerefneutral-variantneutral-variant80: rgba(202, 196, 208, 1);
+    --material-themerefneutral-variantneutral-variant90: rgba(231, 224, 236, 1);
+    --material-themerefneutral-variantneutral-variant95: rgba(245, 238, 250, 1);
+    --material-themerefneutral-variantneutral-variant99: rgba(255, 251, 254, 1);
+    --material-themerefneutral-variantneutral-variant100: rgba(255, 255, 255, 1);
+    --material-themekey-colorsprimary: rgba(103, 80, 164, 1);
+    --material-themesourceseed: rgba(103, 80, 164, 1);
+    --website-font-style-display-large-font-family: "TestFounders Grotesk-Semibold", Helvetica;
+    --website-font-style-display-large-font-weight: 400;
+    --website-font-style-display-large-font-size: 56px;
+    --website-font-style-display-large-letter-spacing: 0.56px;
+    --website-font-style-display-large-line-height: 120.00000476837158%;
+    --website-font-style-display-large-font-style: normal;
+    --website-font-style-display-medium-font-family: "TestFounders Grotesk-Semibold", Helvetica;
+    --website-font-style-display-medium-font-weight: 400;
+    --website-font-style-display-medium-font-size: 44px;
+    --website-font-style-display-medium-letter-spacing: 0.44px;
+    --website-font-style-display-medium-line-height: 120.00000476837158%;
+    --website-font-style-display-medium-font-style: normal;
+    --website-font-style-display-small-font-family: "TestFounders Grotesk-Semibold", Helvetica;
+    --website-font-style-display-small-font-weight: 400;
+    --website-font-style-display-small-font-size: 36px;
+    --website-font-style-display-small-letter-spacing: 0px;
+    --website-font-style-display-small-line-height: 129.99999523162842%;
+    --website-font-style-display-small-font-style: normal;
+    --website-font-style-headline-large-font-family: "TestFounders Grotesk-Semibold", Helvetica;
+    --website-font-style-headline-large-font-weight: 400;
+    --website-font-style-headline-large-font-size: 32px;
+    --website-font-style-headline-large-letter-spacing: 0px;
+    --website-font-style-headline-large-line-height: 139.9999976158142%;
+    --website-font-style-headline-large-font-style: normal;
+    --website-font-style-headline-medium-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-headline-medium-font-weight: 500;
+    --website-font-style-headline-medium-font-size: 28px;
+    --website-font-style-headline-medium-letter-spacing: 0px;
+    --website-font-style-headline-medium-line-height: 129.99999523162842%;
+    --website-font-style-headline-medium-font-style: normal;
+    --website-font-style-headline-small-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-headline-small-font-weight: 500;
+    --website-font-style-headline-small-font-size: 24px;
+    --website-font-style-headline-small-letter-spacing: 0px;
+    --website-font-style-headline-small-line-height: 129.99999523162842%;
+    --website-font-style-headline-small-font-style: normal;
+    --website-font-style-title-xlarge-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-title-xlarge-font-weight: 500;
+    --website-font-style-title-xlarge-font-size: 20px;
+    --website-font-style-title-xlarge-letter-spacing: 0px;
+    --website-font-style-title-xlarge-line-height: 28px;
+    --website-font-style-title-xlarge-font-style: normal;
+    --website-font-style-title-large-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-title-large-font-weight: 500;
+    --website-font-style-title-large-font-size: 18px;
+    --website-font-style-title-large-letter-spacing: 0px;
+    --website-font-style-title-large-line-height: normal;
+    --website-font-style-title-large-font-style: normal;
+    --website-font-style-title-medium-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-title-medium-font-weight: 500;
+    --website-font-style-title-medium-font-size: 16px;
+    --website-font-style-title-medium-letter-spacing: 0px;
+    --website-font-style-title-medium-line-height: 24px;
+    --website-font-style-title-medium-font-style: normal;
+    --website-font-style-title-small-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-title-small-font-weight: 500;
+    --website-font-style-title-small-font-size: 14px;
+    --website-font-style-title-small-letter-spacing: 0px;
+    --website-font-style-title-small-line-height: 20px;
+    --website-font-style-title-small-font-style: normal;
+    --website-font-style-body-xxlarge-font-family: "TestFounders Grotesk-Regular", Helvetica;
+    --website-font-style-body-xxlarge-font-weight: 400;
+    --website-font-style-body-xxlarge-font-size: 24px;
+    --website-font-style-body-xxlarge-letter-spacing: 0.04800000071525574px;
+    --website-font-style-body-xxlarge-line-height: 120.00000476837158%;
+    --website-font-style-body-xxlarge-font-style: normal;
+    --website-font-style-body-xlarge-font-family: "TestFounders Grotesk-Regular", Helvetica;
+    --website-font-style-body-xlarge-font-weight: 400;
+    --website-font-style-body-xlarge-font-size: 20px;
+    --website-font-style-body-xlarge-letter-spacing: 0px;
+    --website-font-style-body-xlarge-line-height: 139.9999976158142%;
+    --website-font-style-body-xlarge-font-style: normal;
+    --website-font-style-body-large-font-family: "TestFounders Grotesk-Regular", Helvetica;
+    --website-font-style-body-large-font-weight: 400;
+    --website-font-style-body-large-font-size: 16px;
+    --website-font-style-body-large-letter-spacing: 0.24px;
+    --website-font-style-body-large-line-height: 150%;
+    --website-font-style-body-large-font-style: normal;
+    --website-font-style-body-medium-font-family: "TestFounders Grotesk-Regular", Helvetica;
+    --website-font-style-body-medium-font-weight: 400;
+    --website-font-style-body-medium-font-size: 14px;
+    --website-font-style-body-medium-letter-spacing: 0.42px;
+    --website-font-style-body-medium-line-height: 139.9999976158142%;
+    --website-font-style-body-medium-font-style: normal;
+    --website-font-style-body-small-font-family: "TestFounders Grotesk-Regular", Helvetica;
+    --website-font-style-body-small-font-weight: 400;
+    --website-font-style-body-small-font-size: 12px;
+    --website-font-style-body-small-letter-spacing: 0px;
+    --website-font-style-body-small-line-height: 129.99999523162842%;
+    --website-font-style-body-small-font-style: normal;
+    --website-font-style-label-large-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-label-large-font-weight: 500;
+    --website-font-style-label-large-font-size: 14px;
+    --website-font-style-label-large-letter-spacing: 0px;
+    --website-font-style-label-large-line-height: 139.9999976158142%;
+    --website-font-style-label-large-font-style: normal;
+    --website-font-style-label-medium-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-label-medium-font-weight: 500;
+    --website-font-style-label-medium-font-size: 12px;
+    --website-font-style-label-medium-letter-spacing: 0px;
+    --website-font-style-label-medium-line-height: 139.9999976158142%;
+    --website-font-style-label-medium-font-style: normal;
+    --website-font-style-label-small-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-label-small-font-weight: 500;
+    --website-font-style-label-small-font-size: 11px;
+    --website-font-style-label-small-letter-spacing: 0px;
+    --website-font-style-label-small-line-height: 139.9999976158142%;
+    --website-font-style-label-small-font-style: normal;
+    --website-font-style-label-link-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --website-font-style-label-link-font-weight: 500;
+    --website-font-style-label-link-font-size: 14px;
+    --website-font-style-label-link-letter-spacing: 0px;
+    --website-font-style-label-link-line-height: normal;
+    --website-font-style-label-link-font-style: normal;
+    --display-XXL-font-family: "TestFounders Grotesk-Semibold", Helvetica;
+    --display-XXL-font-weight: 400;
+    --display-XXL-font-size: 64px;
+    --display-XXL-letter-spacing: 0.64px;
+    --display-XXL-line-height: 120.00000476837158%;
+    --display-XXL-font-style: normal;
+    --link-large-font-family: "TestFounders Grotesk-Medium", Helvetica;
+    --link-large-font-weight: 500;
+    --link-large-font-size: 16px;
+    --link-large-letter-spacing: 0.24px;
+    --link-large-line-height: 150%;
+    --link-large-font-style: normal;
+    --x: 0px 0px 63.45454406738281px 0px rgba(0, 0, 0, 0.1);
+    --shadow-sm: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+    --shadow-form-field-active: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+    --shadow-big: 0px 4px 50px 0px rgba(0, 0, 0, 0.04);
+    --colors-neutral-n-800: rgba(45, 48, 48, 1);
+    --colors-neutral-n-700: rgba(91, 96, 96, 1);
+    --colors-neutral-n-500: rgba(153, 159, 159, 1);
+    --colors-neutral-n-300: rgba(204, 207, 207, 1);
+    --colors-neutral-n-200: rgba(224, 226, 226, 1);
+    --colors-neutral-n-100: rgba(240, 241, 241, 1);
+    --colors-secondary-s-700: rgba(241, 165, 1, 1);
+    --colors-secondary-s-600: rgba(254, 182, 26, 1);
+    --colors-primary-p-300: rgba(73, 181, 172, 1);
+    --colors-secondary-s-50: rgba(255, 249, 236, 1);
+    --colors-primary-p-800: rgba(0, 104, 91, 1);
+    --colors-primary-p-600: rgba(0, 136, 122, 1);
+    --colors-secondary-s-500: rgba(254, 194, 64, 1);
+    --colors-secondary-s-400: rgba(254, 206, 102, 1);
+    --colors-neutral-n-0: rgba(255, 255, 255, 1);
+    --colors-primary-p-500: rgba(0, 149, 135, 1);
+    --colors-primary-p-400: rgba(29, 165, 153, 1);
+    --colors-neutral-n-400: rgba(179, 183, 183, 1);
+    --colors-secondary-s-200: rgba(255, 231, 179, 1);
+    --colors-neutral-n-50: rgba(250, 250, 250, 1);
+    --colors-primary-p-200: rgba(126, 202, 196, 1);
+    --colors-primary-p-50: rgba(233, 246, 245, 1);
+    --tokens-icon-error: var(--tokens-component-negative);
+    --tokens-icon-tertiary: var(--colors-neutral-n-400);
+    --tokens-text-highlights: var(--colors-secondary-s-500);
+    --tokens-others-3: rgba(255, 167, 167, 1);
+    --tokens-others-1: rgba(254, 137, 73, 1);
+    --tokens-component-negative: rgba(238, 63, 63, 1);
+    --tokens-border-form-field-active: var(--colors-primary-p-600);
+    --tokens-bg-primary: var(--colors-primary-p-600);
+    --tokens-text-interactive: var(--colors-primary-p-600);
+    --tokens-border-medium: var(--colors-neutral-n-300);
+    --tokens-component-positive: rgba(47, 232, 121, 1);
+    --tokens-border-dark: var(--colors-neutral-n-500);
+    --tokens-bg-general-icons: var(--colors-neutral-n-100);
+    --tokens-icon-secondary: var(--colors-secondary-s-500);
+    --tokens-text-tertiary: var(--colors-neutral-n-400);
+    --tokens-icon-on-brand-primary: var(--colors-neutral-n-0);
+    --tokens-border-primary: var(--colors-neutral-n-100);
+    --tokens-bg-highlight: rgba(255, 249, 236, 0.8);
+    --tokens-component-secondary: var(--colors-secondary-s-600);
+    --tokens-icon-general: var(--colors-neutral-n-700);
+    --tokens-bg-base: var(--colors-neutral-n-0);
+    --tokens-bg-highlight-2: var(--colors-secondary-s-50);
+    --tokens-bg-dark: var(--colors-neutral-n-800);
+    --tokens-icon-interactive: var(--colors-primary-p-600);
+    --tokens-highlight-2: var(--colors-primary-p-200);
+    --tokens-bg-general: var(--colors-neutral-n-50);
+    --tokens-text-on-brandprimary: var(--colors-neutral-n-0);
+    --tokens-border-error: var(--tokens-component-negative);
+    --tokens-text-secondary: var(--colors-neutral-n-700);
+    --tokens-highlight-1: var(--colors-secondary-s-200);
+    --tokens-text-primary: var(--colors-neutral-n-800);
+    --tokens-others-4: rgba(14, 189, 246, 1);
+    --tokens-bg-interactive: var(--colors-primary-p-50);
+    --tokens-text-tertiary-2: var(--colors-neutral-n-200);
+    --tokens-highlight-3: var(--colors-neutral-n-200);
+    --tokens-component-interactive: var(--colors-primary-p-600);
+    --spacing-sizes-radius-mlarge: 16px;
+    --spacing-sizes-radius-60: 60px;
+    --spacing-sizes-radius-72: 72px;
+    --spacing-sizes-radius-XXXL: 40px;
+    --spacing-sizes-radius-48: 48px;
+    --spacing-sizes-radius-XXL: 32px;
+    --spacing-sizes-radius-xsmall: 4px;
+    --spacing-sizes-radius-l: 20px;
+    --spacing-sizes-radius-medium: 12px;
+    --spacing-sizes-radius-XL: 24px;
+    --spacing-sizes-radius-small: 8px;
+}
+
+.frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: var(--spacing-sizes-radius-medium);
+    padding: var(--spacing-sizes-radius-medium);
+    position: relative;
+    background-color: var(--tokens-bg-base);
+    border-radius: var(--spacing-sizes-radius-mlarge);
+    border: 1px solid;
+    border-color: var(--tokens-border-primary);
+}
+
+.frame .div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-sizes-radius-medium) var(--spacing-sizes-radius-XXL) var(--spacing-sizes-radius-medium)
+    var(--spacing-sizes-radius-XXL);
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: var(--website-font-style-title-large-font-family);
+    font-weight: 700;
+    color: var(--tokens-text-primary);
+    font-size: var(--website-font-style-title-large-font-size);
+    letter-spacing: var(--website-font-style-title-large-letter-spacing);
+    line-height: var(--website-font-style-title-large-line-height);
+    white-space: nowrap;
+    font-style: var(--website-font-style-title-large-font-style);
+}
+
+.frame .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--website-font-style-title-large-font-family);
+    font-weight: 700;
+    color: var(--tokens-text-primary);
+    font-size: var(--website-font-style-title-large-font-size);
+    letter-spacing: var(--website-font-style-title-large-letter-spacing);
+    line-height: var(--website-font-style-title-large-line-height);
+    white-space: nowrap;
+    font-style: var(--website-font-style-title-large-font-style);
+}
+
+.frame .div-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .div-wrapper {
+    display: flex;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-sizes-radius-medium) var(--spacing-sizes-radius-l) var(--spacing-sizes-radius-medium)
+    var(--spacing-sizes-radius-l);
+    background-color: var(--tokens-bg-general);
+    border-radius: var(--spacing-sizes-radius-xsmall);
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: var(--website-font-style-body-large-font-family);
+    font-weight: var(--website-font-style-body-large-font-weight);
+    color: var(--tokens-text-secondary);
+    font-size: var(--website-font-style-body-large-font-size);
+    text-align: center;
+    letter-spacing: var(--website-font-style-body-large-letter-spacing);
+    line-height: var(--website-font-style-body-large-line-height);
+    white-space: nowrap;
+    font-style: var(--website-font-style-body-large-font-style);
+}
+
+.frame .text-wrapper-4 {
+    width: 34px;
+    color: var(--tokens-text-secondary);
+    position: relative;
+    margin-top: -0.75px;
+    font-family: var(--website-font-style-body-large-font-family);
+    font-weight: var(--website-font-style-body-large-font-weight);
+    font-size: var(--website-font-style-body-large-font-size);
+    text-align: center;
+    letter-spacing: var(--website-font-style-body-large-letter-spacing);
+    line-height: var(--website-font-style-body-large-line-height);
+    font-style: var(--website-font-style-body-large-font-style);
+}
+
+.frame .div-wrapper-2 {
+    background-color: var(--tokens-bg-interactive);
+    display: flex;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-sizes-radius-medium) var(--spacing-sizes-radius-l) var(--spacing-sizes-radius-medium)
+    var(--spacing-sizes-radius-l);
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: var(--spacing-sizes-radius-xsmall);
+}
+
+.frame .text-wrapper-5 {
+    width: fit-content;
+    color: var(--tokens-text-primary);
+    white-space: nowrap;
+    position: relative;
+    margin-top: -0.75px;
+    font-family: var(--website-font-style-body-large-font-family);
+    font-weight: var(--website-font-style-body-large-font-weight);
+    font-size: var(--website-font-style-body-large-font-size);
+    text-align: center;
+    letter-spacing: var(--website-font-style-body-large-letter-spacing);
+    line-height: var(--website-font-style-body-large-line-height);
+    font-style: var(--website-font-style-body-large-font-style);
+}
+
+.frame .div-4 {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-sizes-radius-medium) var(--spacing-sizes-radius-XL) var(--spacing-sizes-radius-medium)
+    var(--spacing-sizes-radius-XL);
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .div-wrapper-3 {
+    background-color: var(--tokens-bg-primary);
+    display: flex;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-sizes-radius-medium) var(--spacing-sizes-radius-l) var(--spacing-sizes-radius-medium)
+    var(--spacing-sizes-radius-l);
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: var(--spacing-sizes-radius-xsmall);
+}
+
+.frame .text-wrapper-6 {
+    width: fit-content;
+    color: var(--tokens-text-on-brandprimary);
+    white-space: nowrap;
+    position: relative;
+    margin-top: -0.75px;
+    font-family: var(--website-font-style-body-large-font-family);
+    font-weight: var(--website-font-style-body-large-font-weight);
+    font-size: var(--website-font-style-body-large-font-size);
+    text-align: center;
+    letter-spacing: var(--website-font-style-body-large-letter-spacing);
+    line-height: var(--website-font-style-body-large-line-height);
+    font-style: var(--website-font-style-body-large-font-style);
+}
+
+.frame .div-wrapper-4 {
+    display: flex;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-sizes-radius-medium) var(--spacing-sizes-radius-l) var(--spacing-sizes-radius-medium)
+    var(--spacing-sizes-radius-l);
+    border-radius: var(--spacing-sizes-radius-xsmall);
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .text-wrapper-7 {
+    width: fit-content;
+    color: var(--tokens-text-tertiary);
+    white-space: nowrap;
+    position: relative;
+    margin-top: -0.75px;
+    font-family: var(--website-font-style-body-large-font-family);
+    font-weight: var(--website-font-style-body-large-font-weight);
+    font-size: var(--website-font-style-body-large-font-size);
+    text-align: center;
+    letter-spacing: var(--website-font-style-body-large-letter-spacing);
+    line-height: var(--website-font-style-body-large-line-height);
+    font-style: var(--website-font-style-body-large-font-style);
+}
+
+.frame .text-wrapper-8 {
+    width: 34px;
+    color: var(--tokens-text-tertiary);
+    position: relative;
+    margin-top: -0.75px;
+    font-family: var(--website-font-style-body-large-font-family);
+    font-weight: var(--website-font-style-body-large-font-weight);
+    font-size: var(--website-font-style-body-large-font-size);
+    text-align: center;
+    letter-spacing: var(--website-font-style-body-large-letter-spacing);
+    line-height: var(--website-font-style-body-large-line-height);
+    font-style: var(--website-font-style-body-large-font-style);
+}
+
+.frame .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    margin-left: -9px;
+    margin-right: -9px;
+    font-family: var(--website-font-style-body-large-font-family);
+    font-weight: var(--website-font-style-body-large-font-weight);
+    color: var(--tokens-text-secondary);
+    font-size: var(--website-font-style-body-large-font-size);
+    text-align: center;
+    letter-spacing: var(--website-font-style-body-large-letter-spacing);
+    line-height: var(--website-font-style-body-large-line-height);
+    white-space: nowrap;
+    font-style: var(--website-font-st\yle-body-large-font-style);
+}
+
+.frame .div-wrapper[data-booked=false]:hover {
+    background-color: var(--tokens-bg-interactive);
+    display: flex;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-sizes-radius-medium) var(--spacing-sizes-radius-l) var(--spacing-sizes-radius-medium) var(--spacing-sizes-radius-l);
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: var(--spacing-sizes-radius-xsmall);
+    cursor: pointer;
+}
+
+.frame .div-wrapper[data-booked=true] {
+    /*background-color: #efefef;*/
+    cursor: default;
+    color: #b9bdbd;
+}
+.frame .div-wrapper[data-booked=true] .text-wrapper-3{
+    /*background-color: #efefef;*/
+    /*cursor: default;*/
+    color: #b9bdbd;
+}

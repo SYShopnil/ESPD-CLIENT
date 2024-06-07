@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.congratulationsWrapperSet{
+    background: #FAFAFA;
+}
+.congraInner{
+    text-align: center;
+    margin-top: 100px;
+}
+.octicon_check{
+    margin-bottom: 30px;
+}
+.congraInner h1{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.44px;
+    margin-bottom: 20px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    color: #1E1E1E;
+}
+.congraBtn{
+    border-radius: 8px;
+    background-color: #00887A;
+    padding: 12px 20px 12px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: inline-block;
+    margin-top: 50px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}

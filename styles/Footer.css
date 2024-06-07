@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.footerMain{
+    border-top: 1px solid #F0F1F1;
+    margin-top: 120px;
+    background: #FAFAFA;
+}
+.footerLogo{
+    width: 77px;
+    height: 31px;
+    margin-bottom: 20px;
+}
+.footerWrapper{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F0F1F1;
+}
+.espdDes{
+    /*width: 82%;*/
+}
+.footer2nd{
+    margin-left: 10%;
+}
+.footer3rd{
+}
+.footer4th{
+    margin-left: 10px;
+}
+.footerDes{
+    color: #5B6060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    margin-bottom: 30px;
+    font-family: 'TestFoundersGrotesk';
+}
+.footerContaText{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #5B6060;
+    margin-bottom: 20px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.footerContaCon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footerContaCon p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #5B6060;
+}
+.PhoneCall{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.footerSocialIconCon{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.instafooterSocialIcon{
+    width: 12px;
+    height: 12px;
+}
+.footerSocialIconCon a{
+    height: 24px;
+    width: 24px;
+    background-color: #E9F6F5;
+    border-radius: 8px;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footerContaConLink{
+    text-decoration: none;
+    color: #5B6060;
+}
+.youfooterSocialIcon{
+    width: 14px;
+    height: 12px;
+}
+.fbfooterSocialIcon{
+    width: 8px;
+    height: 12px;
+}
+.footerHeading{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #5B6060;
+    margin-bottom: 20px!important;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.footerSubCon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 36px;
+}
+.footerLinkCon a{
+    text-decoration: none;
+    color: #5B6060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    font-family: 'TestFoundersGrotesk';
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footerLinkCon a:hover{
+    text-decoration: underline!important;
+}
+.footerSubCon a{
+    text-decoration: none;
+    color: #5B6060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px!important;
+    letter-spacing: 0.24px;
+    font-family: 'TestFoundersGrotesk';
+    cursor: pointer;
+    display: inline-block;
+}
+.footerSubCon a:hover{
+    text-decoration: underline!important;
+}
+.footerSearchInput{
+    border-top: 1px solid #CCCFCF;
+    border-left: 1px solid #CCCFCF;
+    border-bottom: 1px solid #CCCFCF;
+    border-right: 1px solid transparent;
+    color: #5B6060;
+    padding: 18px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.footerSearchInput::placeholder{
+    color: #B3B7B7;
+}
+.footerSearchInput:focus{
+    border-top: 1px solid #00887A;
+    border-left: 1px solid #00887A;
+    border-bottom: 1px solid #00887A;
+    border-right: 1px solid transparent;
+    box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25);
+}
+.footerSearchBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.sharePopUpFooterInner {
+    width: 100%;
+}
+.sharePopUpFooterInner .footerSearchInput {
+    width: 100%;
+}
+.footerSearchBtnSet{
+    background-color: #00887A;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 18px 16px;
+    border: 1px solid #00887A;
+    transition: 300ms;
+}
+.footerSearchBtnSet:hover{
+    background-color: #004C3F;
+}
+.footerSearchBtnSet{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.footerSubCon div{
+    margin-right: 10px;
+}
+.footerSearchBtnBox{
+    width: 100%;
+    text-align: center;
+}
+.underLinetext{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: #5B6060;
+    margin-top: 20px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    cursor: pointer;
+}
+.underLineSubtext{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.42px;
+    color: #5B6060;
+    margin-top: 20px;
+    font-family: 'TestFoundersGrotesk';
+}
+.copyRow p{
+    color: #5B6060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    font-family: 'TestFoundersGrotesk';
+}
+.copyRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #F0F1F1;
+}
+.copyRow .levelText span a{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+    text-decoration-line: underline!important;
+    color: #00887A;
+}
+.tiktokSocialIcon{
+    display: none!important;
+}
+
+@media only screen and (max-width: 768px){
+    .footerMain {
+        border-top: 1px solid #F0F1F1;
+        margin-top: 60px;
+        background: #FFFFFF;
+    }
+    .footerMain .container{
+        margin: 0;
+    }
+    .footerWrapper {
+        padding: 40px 16px 24px 16px;
+    }
+    .tiktokSocialIcon{
+        display: block!important;
+    }
+    .footerSearchInput{
+        padding: 16px;
+    }
+    .footerSearchBtnSet{
+        padding: 16px;
+    }
+}

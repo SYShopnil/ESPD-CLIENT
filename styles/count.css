@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "TestFoundersGrotesk";
+  src: url("../public/font/Test-Founders-Grotesk-400.otf");
+  /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+  /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  src: url("../public/font/Test-Founders-Grotesk-Medium-500.otf");
+}
+@font-face {
+  font-family: "Test-Founders-Grotesk-SmB-600";
+  src: url("../public/font/Test-Founders-Grotesk-SmB-600.otf");
+}
+.countWrapperMain {
+  margin: 0 1rem;
+}
+.countWrapper {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 72px;
+  margin-bottom: 120px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+}
+.countBox {
+  text-align: center;
+  border-right: 2px solid #f0f1f1;
+}
+.countWrapper div:last-child {
+  border-right: 0;
+}
+.countRow {
+}
+.countWrapper .text {
+  color: #feb61a;
+  margin-bottom: 20px;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0.56px;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+.countWrapper p {
+  color: #5b6060;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}

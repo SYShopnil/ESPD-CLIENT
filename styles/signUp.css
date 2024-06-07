@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.signUpWrapperSet{
+    padding-top: 48px;
+    background-color: #FAFAFA;
+}
+.signUpBack{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 48px;
+}
+.backVector{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+.backText{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2D3030;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+
+.textLineFooter{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.numberFooter{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #00887A;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.signUpFooter{
+    padding: 20px 0px;
+    border-top: 1px solid #F0F1F1;
+    margin-top: 100px;
+}

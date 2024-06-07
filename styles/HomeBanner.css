@@ -1,0 +1,415 @@
+@font-face {
+  font-family: "TestFoundersGrotesk";
+  src: url("../public/font/Test-Founders-Grotesk-400.otf");
+  /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+  /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+  /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+
+@font-face {
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  src: url("../public/font/Test-Founders-Grotesk-Medium-500.otf");
+}
+
+@font-face {
+  font-family: "Test-Founders-Grotesk-SmB-600";
+  src: url("../public/font/Test-Founders-Grotesk-SmB-600.otf");
+}
+
+.homeBannerWrapper {
+  /*background: rgba(255, 249, 236, 0.80);*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.espdWrapperBox,
+.homeBannerWrapperBox {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.heroImg {
+  border-radius: 20px;
+}
+
+.titleText {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0.56px;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-SmB-600";
+}
+
+.parentText {
+  position: relative;
+}
+
+.Vector {
+  width: 301px;
+  height: 14px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.parentBox {
+  position: relative;
+}
+
+.textTitleCon {
+  width: 47%;
+}
+
+.titleSubText {
+  color: #5b6060;
+  font-size: 24px;
+  margin: 40px 0px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.048px;
+  font-family: "TestFoundersGrotesk";
+}
+
+.searchTitle {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+
+.searchBoxHero {
+  width: 100%;
+}
+
+.searchBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /*border: 2px solid #CCCFCF;*/
+  border-radius: 15px;
+}
+
+.searchInnerBox {
+  display: flex;
+  align-items: center;
+  /*border-top: 1px solid #CCCFCF;*/
+  /*border-left: 1px solid #CCCFCF;*/
+  /*border-bottom: 1px solid #CCCFCF;*/
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.searchInnerBox .levelCon:first-child {
+  /*border-right: 0;*/
+}
+
+.searchInput {
+  border: none;
+  border-right: 2px solid #cccfcf;
+  color: #b3b7b7;
+  padding: 13px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 42%;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+
+.onlLevelSelectClass .searchBox input:focus,
+.searchPageSelectWrap .searchBox input:focus,
+.homeBannerWrapper .searchBox input:focus {
+  border: none !important;
+}
+
+.searchPageSelectWrap .espd-select__control,
+.homeBannerWrapper .espd-select__control {
+  border: 1px solid #cccfcf;
+  /*border-radius: 12px !important;*/
+  border-bottom-left-radius: 12px !important;
+  border-top-left-radius: 12px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.onlLevelSelectClass .espd-select__control--is-focused,
+.searchPageSelectWrap .espd-select__control--is-focused,
+.homeBannerWrapper .espd-select__control--is-focused {
+  border: 1px solid #00887a;
+  border-color: #00887a !important;
+  box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25) !important;
+}
+
+.onlLevelSelectClass .outBorderRadius .espd-select__control,
+.searchPageSelectWrap .outBorderRadius .espd-select__control,
+.homeBannerWrapper .outBorderRadius .espd-select__control {
+  border: 1px solid #cccfcf;
+  border-radius: 0px !important;
+}
+
+.onlLevelSelectClass .outBorderRadius .espd-select__control--is-focused,
+.searchPageSelectWrap .outBorderRadius .espd-select__control--is-focused,
+.homeBannerWrapper .outBorderRadius .espd-select__control--is-focused {
+  border: 1px solid #00887a;
+  border-color: #00887a !important;
+  box-shadow: 0px 0px 5px 0px rgba(0, 136, 122, 0.25) !important;
+  border-radius: 0px !important;
+}
+
+.levelSelect option {
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+
+.levelSelect {
+  padding: 15px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  background-color: transparent;
+  color: #b3b7b7;
+  border: 0px;
+  outline: 0px;
+  cursor: pointer;
+  font-family: "TestFoundersGrotesk";
+}
+
+.form-select:focus {
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+
+.homeBannerWrapper .levelSelectSub {
+  background-image: none;
+}
+
+.levelCon {
+  width: 50%;
+  position: relative;
+}
+
+.MagnifyingGlass {
+  margin-right: 8px;
+}
+
+.searchBtnBox {
+  width: 23%;
+}
+
+.searchBtnSet {
+  background-color: #00887a;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 17px;
+  transition: 300ms;
+}
+
+.searchBtnSet:hover {
+  background-color: #004c3f;
+}
+
+.searchBtnSet p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+
+.BeforeSearchWrap h3 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+}
+
+.levelSelect {
+  position: relative;
+}
+
+.levelSelect option:after {
+  content: "";
+  background-color: #feb61a;
+  position: absolute;
+  height: 29px;
+}
+
+.enterSubject {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  color: #5b6060;
+  font-family: "TestFoundersGrotesk";
+  padding: 20px;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.enterSubject::placeholder {
+  color: #b3b7b7;
+}
+
+.enterSubject:focus {
+  border: none;
+  outline: none;
+}
+
+.CaretDownLevel {
+  position: absolute;
+  right: 40%;
+  top: 23px;
+}
+
+.subjectOptionBox {
+  position: absolute;
+  background-color: #fff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-top: 3px;
+  left: 8px;
+  right: 15px;
+  overflow-y: scroll;
+  height: 200px;
+  bottom: 68px;
+  z-index: 100;
+}
+
+/*.subjectOptionBoxPop{*/
+/*    bottom: 60px;*/
+/*}*/
+.subjectOptionItem {
+  overflow: hidden;
+}
+
+.subjectOptionBox h5 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2d3030;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  padding: 15px 20px;
+}
+
+.subjectOptionItem a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #5b6060;
+  display: block;
+  padding: 16px;
+  background-color: #fff;
+  font-family: "Test-Founders-Grotesk-Medium-500";
+  transition: 0.1s all;
+  border-bottom: 1px solid #f0f1f1;
+}
+
+.subjectOptionItem a:last-child {
+  border-bottom: 1px solid transparent;
+}
+
+.subjectOptionItem a:hover {
+  background-color: #00887a;
+  color: #fff;
+}
+
+.subjectOptionActive {
+  background-color: #e9f6f5 !important;
+  color: #2d3030 !important;
+}
+
+.searchInnerBox .show {
+  display: block;
+}
+
+.searchInnerBox .hide {
+  display: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00887a;
+  border-radius: 20px;
+}
+
+/*.custom-select {*/
+/*    min-width: 350px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.custom-select select {*/
+/*    appearance: none;*/
+/*    !*  safari  *!*/
+/*    -webkit-appearance: none;*/
+/*    !*  other styles for aesthetics *!*/
+/*    width: 100%;*/
+/*    font-size: 1.15rem;*/
+/*    padding: 0.675em 6em 0.675em 1em;*/
+/*    background-color: #fff;*/
+/*    border: 1px solid #caced1;*/
+/*    border-radius: 0.25rem;*/
+/*    color: #000;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.custom-select::before,*/
+/*.custom-select::after {*/
+/*    --size: 0.3rem;*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    right: 1rem;*/
+/*    pointer-events: none;*/
+/*}*/
+
+/*.custom-select::before {*/
+/*    border-left: var(--size) solid transparent;*/
+/*    border-right: var(--size) solid transparent;*/
+/*    border-bottom: var(--size) solid black;*/
+/*    top: 40%;*/
+/*}*/
+
+/*.custom-select::after {*/
+/*    border-left: var(--size) solid transparent;*/
+/*    border-right: var(--size) solid transparent;*/
+/*    border-top: var(--size) solid black;*/
+/*    top: 55%;*/
+/*}*/
+
+/**/
+.heroImg.banner {
+  width: 560px;
+  height: 315px;
+  overflow: hidden;
+}

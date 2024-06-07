@@ -1,0 +1,650 @@
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.studentProfileWrapper{
+    margin-top: 50px;
+}
+.LoggedOutWrap .btnWrap .wellComeBtn:last-child{
+    margin-right: 0;
+}
+
+/*Wellcome Style*/
+
+.wellcomeTitle h3{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    color: #2D3030;
+    margin-bottom: 10px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.wellcomeTitle h1{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 67px;
+    letter-spacing: 0.56px;
+    color: #FEB61A;
+    margin-bottom: 50px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.wellcomeWrap h1{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    color: #2D3030;
+    margin-bottom: 50px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.wellcomeWrap{
+    border-radius: 20px;
+    background: #FFF;
+    padding: 200px 0px;
+    text-align: center;
+}
+.wellcomeWrap .btnWrap .wellComeBtn{
+    border-radius: 8px;
+    background-color: #E9F6F5;
+    padding: 15px 20px;
+    margin-right: 20px;
+    color: #00887A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: inline-block;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    /*transition: .1s all;*/
+}
+.wellcomeWrap .btnWrap .wellComeBtn:hover{
+    background-color: #00887A;
+    color: #fff;
+}
+.wellcomeWrap .btnWrap .active{
+    background-color: #00887A;
+    color: #fff;
+}
+.wellcomeWrap .MagnifyingGlassWhite{
+    display: none;
+    margin-right: 5px;
+    float: left;
+}
+.wellcomeWrap .MagnifyingGlassColor{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.wellcomeWrap .PhoneWhite{
+    margin-right: 5px;
+}
+.wellcomeWrap .btnWrap .wellComeBtn:hover .MagnifyingGlassWhite{
+    display: block;
+}
+.wellcomeWrap .btnWrap .wellComeBtn:hover .MagnifyingGlassColor{
+    display: none;
+}
+
+/*LessonsDetails style*/
+.lessonWrap{
+    border-radius: 20px;
+    background: #FFF;
+    padding: 20px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+}
+
+.lessonButtonWrap{
+    display: flex;
+}
+.lessonButtonWrap div{
+    margin-right: 40px;
+}
+.lessonButtonWrap div p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    color: #2D3030;
+    cursor: pointer;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+
+.lessonWrap .lessonContainer{
+    margin-top: 30px;
+    display: none;
+}
+.lessonWrap .activeCon{
+    display: block;
+}
+.lessonWrap .activeCon::before{
+    transform: translateX(-50%);
+}
+.lessonWrap .LessonActive p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    color: #00887A;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #00887A;
+    cursor: pointer;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.lessonWrap .lessonContainer table{
+    width: 100%;
+}
+.lessonWrap .lessonContainer table tr{
+    border-bottom: 1px solid #F0F1F1;
+}
+.lessonWrap .lessonContainer table tr:last-child{
+    border-bottom: 0;
+}
+.lessonWrap .lessonContainer table td{
+    padding: 25px 25px 25px 0px;
+    width: 20%;
+}
+.lessonWrap .lessonContainer table td:last-child{
+    text-align: end;
+}
+.lessonWrap .lessonContainer table h1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.lessonWrap .lessonContainer table p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.lessonWrap .lessonContainer .lessonDetailsBtn{
+    border-radius: 8px;
+    background: #00887A;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px 20px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition: 300ms;
+}
+.lessonWrap .lessonContainer .lessonDetailsBtn:hover{
+    background-color: #004C3F;
+}
+.lessonWrap .lessonContainer .lessonGroupDetailsBtn{
+    border-radius: 8px;
+    border: 1px solid #00887A;
+    color: #00887A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px 20px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+   
+}
+.lessonWrap .lessonContainer .ArrowRightWhiteLesson{
+    margin-left: 5px;
+}
+
+/*FavouriteList style*/
+.favouriteLisHead div{
+    margin-bottom: 50px;
+}
+.favouriteLisHead h1{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 67px;
+    letter-spacing: 0.56px;
+    color: #2D3030;
+    margin-bottom: 50px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.supperTutorBoxFev{
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(0, 136, 122, 0.00) 0%, #00887A 100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.supperTutorBoxFev p{
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.supperTutorBoxInnerFev{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.userImgFevSealCheck{
+    margin-right: 5px;
+}
+.FavouritItemWrapper{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #F0F1F1;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+    padding: 20px;
+}
+.fevItemWrap{
+    display: flex;
+    margin-bottom: 20px;
+}
+.FavouritItemWrapper .examBoard{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.FavouritItemWrapper .examBoard p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 20px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.fevBottomContent .examBoard .examBoarIcon{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 20px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.fevBottomContent .des{
+    margin-bottom: 10px;
+}
+.fevBottomContent .des p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.fevItemContentHead{
+
+    margin-bottom: 10px;
+}
+.fevItemContentHead p{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: #2D3030;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.fevItemContentHead p span{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #5B6060;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+
+/*Profile Style*/
+
+
+.profileWrap .lessonContainer{
+    margin-top: 30px;
+    display: none;
+}
+.profileWrap .activeCon{
+    display: block;
+}
+.profileWrap .activeCon::before{
+    transform: translateX(-50%);
+}
+.profileWrap .LessonActive p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    color: #00887A;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #00887A;
+    cursor: pointer;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.profileWrap .lessonContainer table{
+    width: 100%;
+}
+.profileWrap .lessonContainer table tr{
+    border-bottom: 1px solid #F0F1F1;
+}
+.profileWrap .lessonContainer table tr:last-child{
+    border-bottom: 0;
+}
+.profileWrap .lessonContainer table td{
+    padding: 25px 25px 25px 0px;
+    width: 20%;
+}
+.profileWrap .lessonContainer table td:last-child{
+    text-align: end;
+}
+.profileWrap .lessonContainer table h1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.profileWrap .lessonContainer table p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.profileWrap .lessonContainer .lessonDetailsBtn{
+    border-radius: 8px;
+    background: #00887A;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px 20px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.profileWrap .lessonContainer .ArrowRightWhiteLesson{
+    margin-left: 5px;
+}
+.profileWrap .personalFormWrap{
+    border-radius: 20px;
+    background: #FFF;
+    padding: 40px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.02);
+    margin-top: 50px;
+}
+
+.personalDetailsWrap .uploadImageInner{
+    width: 180px;
+    height: 180px;
+    background-color: #F0F1F1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.uploadImageBox .uploadImageBtn{
+    border-radius: 8px;
+    border: 1px solid #999F9F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #5B6060;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.uploadImageBtn .UploadSimple{
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+.uploadImageBox{
+    margin-bottom: 50px;
+}
+.profileFormBox p{
+    font-size: 18px;
+    color: #2D3030;
+    margin-bottom: 10px;
+}
+
+.camera{
+    border-radius: 50%;
+}
+
+.cityCodeBox input,
+.addressBox input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCCFCF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.addressFormBox p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #2D3030;
+    margin-bottom: 10px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.addressFormBox .addressBox{
+    margin-bottom: 30px;
+}
+.cityCodeBox{
+    display: flex;
+}
+.cityCodeBox p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #2D3030;
+    margin-bottom: 10px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.cityCodeBox .cityBox{
+    margin-right: 20px;
+    width: 100%;
+}
+.cityCodeBox .cityBox:last-child{
+    margin-right: 0;
+}
+.saveBtnBox button{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    background-color: #00887A;
+    border-radius: 8px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    transition: 300ms;
+}
+.saveBtnBox button:hover{
+    background-color: #004C3F;
+}
+.personalDetailsWrap .saveBtnBox {
+    display: flex;
+    justify-content: end;
+    margin: 30px 0px;
+}
+.personalFormWrap .saveBtnBox {
+    display: flex;
+    justify-content: end;
+    margin: 30px 0px;
+}
+
+.passwordFormBox input{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.passwordFormBox input::placeholder{
+    color: #B3B7B7;
+}
+.passwordFormBox h4{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    color: #2D3030;
+    margin-bottom: 20px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.passwordFormBox h5{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #5B6060;
+    margin-bottom: 20px;
+    font-family: 'TestFoundersGrotesk';
+}
+.paymentDetailsWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardType a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2D3030;
+    font-family: 'TestFoundersGrotesk';
+}
+.cardType .masterCardIcon{
+    margin-right: 10px;
+}
+.paymentDetailsWrap .cardType{
+    margin-right: 40px;
+}
+.paymentDetailsWrap .cardDetails p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2D3030;
+    font-family: 'TestFoundersGrotesk';
+}
+.paymentDetailsWrap .cardDetails{
+    display: flex;
+    width: 70%;
+}
+.paymentDetailsWrap .editBtnBox a{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #00887A;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.paymentDetailsWrap .editBtnBox .PencilSimple{
+    margin-right: 10px;
+}
+
+/*Logged out style*/
+
+.LoggedOutWrap h1{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    color: #2D3030;
+    margin-bottom: 50px;
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+}
+.LoggedOutWrap{
+    border-radius: 20px;
+    padding: 200px 0px;
+    text-align: center;
+}
+.LoggedOutWrap .btnWrap .wellComeBtn{
+    border-radius: 8px;
+    background-color: #E9F6F5;
+    padding: 15px 20px;
+    margin-right: 20px;
+    color: #00887A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: inline-block;
+    /*transition: .1s all;*/
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    transition: 300ms;
+}
+.LoggedOutWrap .btnWrap .wellComeBtn:hover{
+    background-color: #004C3F;
+}
+.LoggedOutWrap .btnWrap .active{
+    background-color: #00887A;
+    color: #fff;
+}
+.LoggedOutWrap .MagnifyingGlassWhite{
+    display: none;
+    margin-right: 5px;
+    float: left;
+}
+.LoggedOutWrap .MagnifyingGlassColor{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.LoggedOutWrap .PhoneWhite{
+    margin-right: 5px;
+}
+.LoggedOutWrap .btnWrap .wellComeBtn:hover .MagnifyingGlassWhite{
+    display: block;
+}
+.LoggedOutWrap .btnWrap .wellComeBtn:hover .MagnifyingGlassColor{
+    display: none;
+}
+
+.ArrowRightWhiteLog{
+    margin-left: 5px;
+}

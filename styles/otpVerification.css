@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'TestFoundersGrotesk';
+    src: url('../public/font/Test-Founders-Grotesk-400.otf');
+    /*src: url('../public/font/Test-Founders-Grotesk-Light-300.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');*/
+    /*src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');*/
+    /*src: url('../public/font/TestFoundersGroteskBold700.otf');*/
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-Medium-500';
+    src: url('../public/font/Test-Founders-Grotesk-Medium-500.otf');
+}
+@font-face {
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+    src: url('../public/font/Test-Founders-Grotesk-SmB-600.otf');
+}
+.otpVerificationWrapper{
+    background: #FAFAFA;
+    height: 100vh;
+    padding-top: 50px;
+}
+.otpMiddleWrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/*verify Email*/
+.verifyEmailWrapper{
+    text-align: center;
+}
+.verifyEmailIcon{
+    margin-bottom: 30px;
+}
+.verifyEmailWrapper h1{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 10px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+.verifyEmailWrapper .lottie-container{
+    width: 200px;
+    margin: 0 auto;
+}
+.verifyEmailWrapper p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.048px;
+    color: #5B6060;
+    font-family: 'TestFoundersGrotesk';
+}
+.otpBox{
+    margin: 50px 0px;
+}
+.otpBox div{
+    justify-content: center;
+}
+.otpBox div input{
+    margin-right: 10px;
+    height: 3em;
+    width: 3em!important;
+    border: 1px solid #CCCFCF;
+    border-radius: 4px;
+}
+.otpBox div input:focus{
+    outline: 0.4px solid #00887A;
+}
+.otpBox div input:last-child{
+    margin-right: 0px;
+}
+.otpVerifyBtn{
+    color: #fff;
+    padding: 12px 20px;
+    background-color: #00887A;
+    border-radius: 8px;
+    transition: 300ms;
+}
+.otpVerifyBtn:hover{
+    background-color: #004C3F;
+}
+.otpVerifyBtn .ArrowRight{
+    margin-left: 8px;
+}
+.verifyEmailWrapper h2{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.44px;
+    margin-bottom: 30px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+
+.verifyEmailWrapper .content{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #2D3030;
+    margin-bottom: 30px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+
+.verifyEmailWrapper .content p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #2D3030;
+    margin-bottom: 30px;
+    font-family: 'Test-Founders-Grotesk-SmB-600';
+}
+
+.verifyEmailWrapper a:last-child {
+    margin-left: 10px;
+
+}
+
+
